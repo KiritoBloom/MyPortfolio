@@ -345,145 +345,96 @@ nav a:hover + .line3 {
   transform: scale(0.97);
 }
 
-/* Extra small phones (less than 576px) */
-@media screen and (max-width: 575px) {
-  .title {
-    font-size: 18px;
-    top: 10%;
-    left: -9%
-  }
+.email-name {
+  position: absolute;
+  color: white;
+  font-family: "Poppins", "Gill Sans";
+  top: 60%;
+  left: 3%;
+}
 
-  .desc {
-    font-size: 12px;
-    top: 15%;
-  }
+.email-name a {
+  text-decoration: underline;
+  color: white
+}
 
-  .coder-img {
-    width: 150px; /* Adjusted size */
-    height: 150px; /* Adjusted size */
-    top: 34%; /* Adjusted position */
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  .about{
-   top: 49%;
-   left: 30%
-  }
+.github-icon {
+  position: absolute;
+  top: 80%;
+  left: 3%;
+}
 
-  .aboutme-desc {
-    columns: 1;
-    top: 55%; /* Adjusted position */
+.github-icon a {
+  font-size: 50px;
+  color: white
+}
+
+.linkedin-icon {
+  position: absolute;
+  top: 80%;
+  left: 15%;
+}
+
+.linkedin-icon a {
+  font-size: 50px;
+  color: white
+}
+
+/* Styles for screens less than 768px wide */
+@media (max-width: 768px) {
+  .navbar {
+    position: absolute;
     left: 10%;
-    width: 80%;
-    transform: translateX(0%);
+  }
+  .line1 {
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    width: 60px
+  }
+  .line2 {
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    width: 61px
+  }
+  .line3 {
+    position: absolute;
+    top: 80%;
+    left: 57%;
+    width: 80px
+  }
+  .title {
+    position: absolute;
+    font-size: 20px;
+    left: -10%;
+  }
+  @keyframes slice {
+    0%,
+  27% {
+    transform: translateY(5%);
+  }
+ 
+  33%,
+  60% {
+    transform: translateY(-32%);
   }
 
-  .skills-name {
-    top: 113%; /* Adjusted position */
+  66%,
+  93% {
+    transform: translateY(-65%);
   }
-
-  .html-svg, .css-svg, .js-svg, .react-svg {
-    top: 120%; /* Adjusted position */
-    
   }
 }
-
-
-
-
-
-/* Small phones (576px to 767px) */
-@media screen and (min-width: 576px) and (max-width: 767px) {
-  .title {
-    font-size: 24px;
-    top: 10%;
-  }
-
-  .desc {
-    font-size: 14px;
-    top: 20%;
-  }
-
-  .coder-img {
-    width: 120px;
-    height: 120px;
-    top: 30%;
-  }
-
-  .aboutme-desc {
-    columns: 1;
-    top: 70%;
-  }
-
-  .skills-name {
-    top: 85%;
-  }
-
-  .html-svg, .css-svg, .js-svg, .react-svg {
-    top: 100%;
-  }
+ /* Styles for screens between 768px and 992px wide */
+@media (min-width: 768px) and (max-width: 992px) {
+ 
 }
-
-/* Medium phones (768px to 991px) */
-@media screen and (min-width: 768px) and (max-width: 991px) {
-  .title {
-    font-size: 28px;
-    top: 10%;
-  }
-
-  .desc {
-    font-size: 14px;
-    top: 20%;
-  }
-
-  .coder-img {
-    width: 150px;
-    height: 150px;
-    top: 30%;
-  }
-
-  .aboutme-desc {
-    columns: 1;
-    top: 70%;
-  }
-
-  .skills-name {
-    top: 85%;
-  }
-
-  .html-svg, .css-svg, .js-svg, .react-svg {
-    top: 100%;
-  }
+/* Styles for screens between 992px and 1200px wide */
+@media (min-width: 992px) and (max-width: 1200px) {
+  
 }
-
-/* Large phones (992px to 1199px) */
-@media screen and (min-width: 992px) and (max-width: 1199px) {
-  .title {
-    font-size: 32px;
-    top: 10%;
-  }
-
-  .desc {
-    font-size: 16px;
-    top: 20%;
-  }
-
-  .coder-img {
-    width: 180px;
-    height: 180px;
-    top: 30%;
-  }
-
-  .aboutme-desc {
-    columns: 1;
-    top: 70%;
-  }
-
-  .skills-name {
-    top: 85%;
-  }
-
-  .html-svg, .css-svg, .js-svg, .react-svg {
-    top: 100%;
-  }
+/* Styles for screens greater than 1200px wide */
+@media (min-width: 1200px) {
+  
 }
