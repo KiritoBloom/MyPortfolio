@@ -147,11 +147,10 @@ nav a:hover + .line3 {
   animation-timing-function: ease-out;
   animation-iteration-count: infinite;
   animation-duration: 7s;
-  background: linear-gradient(to left, #2667c2, #0fc7db);
+  background: linear-gradient(to right, cyan, purple);
   background-clip: none;
   -webkit-background-clip: text;
   color: transparent;
-  background-size: 700px 700px;
 }
 
 .word {
@@ -532,12 +531,12 @@ nav a:hover + .line3 {
   .title {
     position: absolute;
     font-size: 20px;
-    left: -10%;
+    left: -12%;
   }
   @keyframes slice {
     0%,
   27% {
-    transform: translateY(5%);
+    transform: translateY(3%);
   }
  
   33%,
@@ -549,6 +548,130 @@ nav a:hover + .line3 {
   93% {
     transform: translateY(-65%);
   }
+  }
+
+  nav {
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .about {
+    font-size: 20px;
+    position: absolute;
+    top: 60%;
+    left: 25%
+  }
+
+  .aboutme-desc {
+    font-size: 10px;
+    position: absolute;
+    columns: 1;
+    top: 65%;
+  }
+
+  .skills-name {
+    font-size: 25px;
+    position: absolute;
+    top: 85%;
+    left: 30%
+  }
+
+  .html-svg {
+    position: absolute;
+    top: 93%;
+    left: 3%;
+    width: 70px;
+    height: 70px;
+  }
+
+  .css-svg {
+    position: absolute;
+    top: 93%;
+    left: 28%;
+    width: 70px;
+    height: 70px;
+  }
+
+  .js-svg {
+    position: absolute;
+    top: 93%;
+    left: 52%;
+    width: 70px;
+    height: 70px;
+  }
+
+  .react-svg {
+    position: absolute;
+    top: 103%;
+    left: 28%;
+    width: 70px;
+    height: 70px;
+  }
+
+  .contact-box {
+    top: 120%;
+    left: 0.5%;
+    width: 300px;
+    height: 1000px
+  }
+
+  .cnt-desc {
+    position: absolute;
+    top: 7%
+  }
+
+  .cnt-about {
+    position: absolute;
+    top: 12%
+  }
+
+  .email-name {
+    position: absolute;
+    font-size: 14px;
+    top: 40%
+  }
+
+  .github-icon {
+    position: absolute;
+    top: 45%
+  }
+
+  .linkedin-icon {
+    position: absolute;
+    top: 45%;
+    left: 80%
+  }
+
+  .contact-container {
+    position: absolute;
+    top: 55%;
+    left: 3%;
+    width: 284px
+  }
+
+  .email {
+    width: 250px
+  }
+
+  .name {
+   width: 250px
+  }
+
+  .message {
+   width: 250px
+  }
+
+  .contact-title {
+    position: absolute;
+    left: 6%
+  }
+
+  .rotating-shape {
+    position: absolute;
+    left: 85%;
+    top: 8%
   }
 }
  /* Styles for screens between 768px and 992px wide */
