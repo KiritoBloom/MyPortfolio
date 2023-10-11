@@ -531,7 +531,7 @@ nav a:hover + .line3 {
   .title {
     position: absolute;
     font-size: 25px;
-    left: -2%;
+    left: 1%;
     top: 30%
 
   }
@@ -553,10 +553,10 @@ nav a:hover + .line3 {
   }
 
   nav {
-    display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
   }
 
   .about {
@@ -689,14 +689,48 @@ nav a:hover + .line3 {
   }
 }
  /* Styles for screens between 768px and 992px wide */
-@media (min-width: 768px) and (max-width: 992px) {
- 
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+ .contact-box {
+  left: 1%;
+  width: 800px
+ }
+
+ .contact-container {
+  left: 54%;
+  width: 350px
+ }
+
+ .cnt-about {
+  font-size: 14px;
+ }
+
+ .name {
+   width: 300px
+ }
+
+ .email {
+  width: 300px;
+ }
+
+ .message {
+  width: 300px;
+ }
+
+ .contact-title {
+  left: 13%
+ }
+
+ .rotating-shape {
+  width: 30px;
+  height: 30px;
+ }
+
+ .home-button {
+  top: 90%;
+  left: 90%
+ }
 }
-/* Styles for screens between 992px and 1200px wide */
-@media (min-width: 992px) and (max-width: 1200px) {
-  
-}
-/* Styles for screens greater than 1200px wide */
-@media (min-width: 1200px) {
-  
+
+@media screen and (min-width:1024px) {
+
 }
