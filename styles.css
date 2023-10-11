@@ -505,10 +505,10 @@ nav a:hover + .line3 {
 }
 
 /* Styles for screens less than 768px wide */
-@media (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .navbar {
     position: absolute;
-    left: 10%;
+    left: 16%;
   }
   .line1 {
     position: absolute;
@@ -530,13 +530,15 @@ nav a:hover + .line3 {
   }
   .title {
     position: absolute;
-    font-size: 20px;
-    left: -12%;
+    font-size: 25px;
+    left: -2%;
+    top: 30%
+
   }
   @keyframes slice {
     0%,
   27% {
-    transform: translateY(3%);
+    transform: translateY(1%);
   }
  
   33%,
@@ -560,27 +562,29 @@ nav a:hover + .line3 {
   .about {
     font-size: 20px;
     position: absolute;
-    top: 60%;
-    left: 25%
+    top: 50%;
+    left: 35%
   }
 
   .aboutme-desc {
     font-size: 10px;
     position: absolute;
     columns: 1;
-    top: 65%;
+    top: 55%;
+    width: 400px;
+    left: 3%
   }
 
   .skills-name {
     font-size: 25px;
     position: absolute;
-    top: 85%;
-    left: 30%
+    top: 80%;
+    left: 40%
   }
 
   .html-svg {
     position: absolute;
-    top: 93%;
+    top: 89%;
     left: 3%;
     width: 70px;
     height: 70px;
@@ -588,24 +592,24 @@ nav a:hover + .line3 {
 
   .css-svg {
     position: absolute;
-    top: 93%;
-    left: 28%;
+    top: 89%;
+    left: 40%;
     width: 70px;
     height: 70px;
   }
 
   .js-svg {
     position: absolute;
-    top: 93%;
-    left: 52%;
+    top: 89%;
+    left: 75%;
     width: 70px;
     height: 70px;
   }
 
   .react-svg {
     position: absolute;
-    top: 103%;
-    left: 28%;
+    top: 100%;
+    left: 40%;
     width: 70px;
     height: 70px;
   }
@@ -613,7 +617,7 @@ nav a:hover + .line3 {
   .contact-box {
     top: 120%;
     left: 0.5%;
-    width: 300px;
+    width: 400px;
     height: 1000px
   }
 
@@ -624,54 +628,64 @@ nav a:hover + .line3 {
 
   .cnt-about {
     position: absolute;
-    top: 12%
+    top: 12%;
+    left: 3%;
+    font-size: 14px;
   }
 
   .email-name {
     position: absolute;
-    font-size: 14px;
-    top: 40%
+    font-size: 19px;
+    top: 30%
   }
 
   .github-icon {
     position: absolute;
-    top: 45%
+    top: 40%;
+    left: 20%
   }
 
   .linkedin-icon {
     position: absolute;
-    top: 45%;
-    left: 80%
+    top: 40%;
+    left: 65%
   }
 
   .contact-container {
     position: absolute;
     top: 55%;
     left: 3%;
-    width: 284px
+    width: 378px
   }
 
   .email {
-    width: 250px
+    width: 330px
   }
 
   .name {
-   width: 250px
+   width: 330px
   }
 
   .message {
-   width: 250px
+   width: 330px
   }
 
   .contact-title {
     position: absolute;
-    left: 6%
+    left: 15%
   }
 
   .rotating-shape {
     position: absolute;
-    left: 85%;
-    top: 8%
+    left: 75%;
+    top: 6%;
+    width: 35px;
+    height: 35px
+  }
+
+  .home-button {
+    top: 92%;
+    left: 83%
   }
 }
  /* Styles for screens between 768px and 992px wide */
