@@ -23,11 +23,12 @@
     <script src="link.js" defer></script>
   </head>
   <body>
+    <div id="preloader"></div>
     <div class="navbar" id="navbar">
       <nav>
-        <a href="#text-container">Home</a>
+        <a href="#text-container">About</a>
         <div class="line1"></div>
-        <a href="#about-me">About</a>
+        <a href="#projects-container">Projects</a>
         <div class="line2"></div>
         <a href="#contact">Contact</a>
         <div class="line3"></div>
@@ -65,6 +66,7 @@
       <div id="about-box" class="about-box"></div>
       <div class="about-circle"></div>
       <div class="about-container"></div>
+      <div class="four-pointed-star"></div>
       <h1 class="about" id="about-me">About Me</h1>
       <p class="aboutme-desc">
         Greetings! I'm Moe, a dedicated Frontend Developer proficient in HTML,
@@ -163,6 +165,86 @@
         />
       </svg>
     </div>
+    <div class="project-container" id="projects-container">
+      <div class="four-pointed-star2"></div>
+      <h1 class="project-header">Projects</h1>
+      <div class="project-box" id="project">
+        <h1 class="project-box-header">Project1</h1>
+        <img
+          src="../Images/coder.jpg"
+          alt="placeholder"
+          class="project-image"
+        />
+        <h2 class="project-about">About:</h2>
+        <p class="project-desc">Placeholder</p>
+        <p class="project-github">
+          <a href="https://github.com/KiritoBloom" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </p>
+
+        <p class="project-link">
+          <a href="#" target="_blank"><i class="fa-solid fa-link"></i></a>
+        </p>
+      </div>
+      <div class="project-box2" id="project">
+        <h1 class="project-box-header">Project2</h1>
+        <img
+          src="../Images/coder.jpg"
+          alt="placeholder"
+          class="project-image"
+        />
+        <h2 class="project-about">About:</h2>
+        <p class="project-desc">Placeholder</p>
+        <p class="project-github">
+          <a href="https://github.com/KiritoBloom" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </p>
+
+        <p class="project-link">
+          <a href="#" target="_blank"><i class="fa-solid fa-link"></i></a>
+        </p>
+      </div>
+      <div class="project-box3" id="project">
+        <h1 class="project-box-header">Project3</h1>
+        <img
+          src="../Images/coder.jpg"
+          alt="placeholder"
+          class="project-image"
+        />
+        <h2 class="project-about">About:</h2>
+        <p class="project-desc">Placeholder</p>
+        <p class="project-github">
+          <a href="https://github.com/KiritoBloom" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </p>
+
+        <p class="project-link">
+          <a href="#" target="_blank"><i class="fa-solid fa-link"></i></a>
+        </p>
+      </div>
+      <div class="project-box4" id="project">
+        <h1 class="project-box-header">Project4</h1>
+        <img
+          src="../Images/coder.jpg"
+          alt="placeholder"
+          class="project-image"
+        />
+        <h2 class="project-about">About:</h2>
+        <p class="project-desc">Placeholder</p>
+        <p class="project-github">
+          <a href="https://github.com/KiritoBloom" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </p>
+
+        <p class="project-link">
+          <a href="#" target="_blank"><i class="fa-solid fa-link"></i></a>
+        </p>
+      </div>
+    </div>
     <div class="contact-box">
       <h1 class="contact-intro">
         Lets Get In <span class="cnt-touch">Touch!</span>
@@ -242,5 +324,11 @@
         </form>
       </div>
     </div>
+    <script>
+      var loader = document.getElementById("preloader");
+      window.addEventListener("load", function () {
+        loader.style.display = "none";
+      });
+    </script>
   </body>
 </html>

@@ -3,6 +3,7 @@ const body = document.querySelector("body");
 const anchors = document.querySelectorAll("nav a");
 const name = document.getElementById("text-container");
 const about = document.getElementById("about-box");
+const project = document.getElementById("projects-container");
 
 toggle.addEventListener("click", function () {
   if (this.classList.contains("fa-moon")) {
@@ -17,6 +18,7 @@ toggle.addEventListener("click", function () {
     body.style.transition = "1s ease-out";
     about.style.background = "linear-gradient(to right, purple, crimson);";
     about.style.borderColor = "black";
+    project.style.borderColor = "black";
   } else {
     this.classList.remove("fa-sun");
     this.classList.add("fa-moon");
@@ -29,5 +31,6 @@ toggle.addEventListener("click", function () {
     body.style.transition = "1s ease-out";
     about.style.background = "linear-gradient(to right, purple, crimson);";
     about.style.borderColor = "white";
+    project.style.borderColor = "white";
   }
 });
