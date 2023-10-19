@@ -747,14 +747,18 @@ nav a:hover + .line3 {
   .line2 {
     position: absolute;
     top: 80%;
-    left: 30%;
-    width: 61px
+    left: 29%;
+    width: 74px
   }
   .line3 {
     position: absolute;
     top: 80%;
-    left: 57%;
-    width: 80px
+    left: 60%;
+    width: 78px
+  }
+
+  .home-button {
+    left: 85%
   }
   .title {
     position: absolute;
@@ -788,25 +792,26 @@ nav a:hover + .line3 {
   }
 
   .about {
-    font-size: 20px;
     position: absolute;
-    top: 50%;
-    left: 35%
+    font-size: 35px;
+    top: 47%;
+    left: 25%
   }
 
   .aboutme-desc {
-    font-size: 10px;
+    font-size: 12px;
     position: absolute;
     columns: 1;
-    top: 58%;
+    top: 56%;
     width: 370px;
-    left: 2%
+    left: 8%
   }
 
   .about-box {
     position: absolute;
     top: 48%;
-    width: 380px
+    width: 400px;
+    left: 1%;
   }
 
   .skills-name {
@@ -849,8 +854,8 @@ nav a:hover + .line3 {
   }
 
   .contact-box {
-    top: 120%;
-    left: 0.1%;
+    top: 400%;
+    left: 4%;
     width: 383.5px;
     height: 1000px
   }
@@ -921,6 +926,69 @@ nav a:hover + .line3 {
     position: absolute;
     left: -2%;
     top: 25%
+  }
+  
+
+  .four-pointed-star {
+    top: 34%;
+    left: 70%
+  }
+
+  .four-pointed-star:before {
+   width: 20px;
+   height: 20px
+  }
+
+  .four-pointed-star:after {
+   width: 20px;
+   height: 20px
+  }
+
+  .project-container {
+    top: 120%;
+    left: 1%;
+    width: 400px;
+    height: 2500px
+  }
+
+  .project-header {
+    left: 23%;
+    top: -1.5%
+  }
+
+  .four-pointed-star2 {
+    top: -5.5%;
+    left: 80%
+  }
+
+  .four-pointed-star2:before {
+    width: 27px;
+    height: 27px
+  }
+
+  .four-pointed-star2:after {
+    width: 27px;
+    height: 27px
+  }
+
+  .project-box {
+    top: 4%;
+    left: 14%
+  }
+
+  .project-box2 {
+    top: 27%;
+    left: 14%
+  }
+
+  .project-box3 {
+    left: 14%;
+    top: 50%
+  }
+
+  .project-box4 {
+    left: 14%;
+    top: 73%
   }
 }
  /* Styles for screens between 768px and 992px wide */
