@@ -1,3 +1,4 @@
+//Constants defined to use in the dark/light mode switcher
 const toggle = document.getElementById("toggleDark");
 const body = document.querySelector("body");
 const anchors = document.querySelectorAll("nav a");
@@ -5,6 +6,7 @@ const name = document.getElementById("text-container");
 const about = document.getElementById("about-box");
 const project = document.getElementById("projects-container");
 
+//Event listener to determine if the dark/light mode button was clicked, if it was clicked the code here changes the constants above color, border color, or class
 toggle.addEventListener("click", function () {
   if (this.classList.contains("fa-moon")) {
     this.classList.remove("fa-moon");
