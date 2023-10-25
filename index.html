@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>Moe's Portfolio</title>
+    <link rel="shortcut icon" type="x-icon" href="../Images/Logo.jpg" />
     <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
@@ -24,17 +25,16 @@
   </head>
   <body>
     <div id="preloader"></div>
-    <div class="navbar" id="navbar">
-      <nav>
-        <a href="#text-container">About</a>
-        <div class="line1"></div>
-        <a href="#projects-container">Projects</a>
-        <div class="line2"></div>
-        <a href="#contact">Contact</a>
-        <div class="line3"></div>
-        <i class="fa-regular fa-sun" id="toggleDark"></i>
-      </nav>
-    </div>
+    <nav id="navbar">
+      <a href="#text-container">About</a>
+      <div class="line1"></div>
+      <a href="#projects-container">Projects</a>
+      <div class="line2"></div>
+      <a href="#contact">Contact</a>
+      <div class="line3"></div>
+      <i class="fa-regular fa-sun" id="toggleDark"></i>
+    </nav>
+
     <!--Home button that scrolls up to the top of the page with an svg of the home icon-->
     <a href="#navbar">
       <button class="home-button">
@@ -64,25 +64,33 @@
       </div>
     </h1>
     <!--About me section-->
-    <div class="about-me">
-      <div id="about-box" class="about-box"></div>
-      <div class="four-pointed-star"></div>
-      <h1 class="about" id="about-me">About Me</h1>
-      <p class="aboutme-desc">
+
+    <div class="chrome-box" id="chrome-box">
+      <div class="chrome-header" id="chrome-header"></div>
+      <span class="red-dot"></span>
+      <span class="yellow-dot"></span>
+      <span class="green-dot"></span>
+      <div class="tab-box" id="about-tab"></div>
+      <h1 class="chrome-tab">About</h1>
+      <h1 class="about-title">About Me</h1>
+      <p class="about-desc">
         Greetings! I'm Moe, a dedicated Frontend Developer proficient in HTML,
-        CSS, React, Git, Firebase, and JavaScript.<br />
-        With an unquenchable thirst for all things tech, I have a strong
-        foundation in web development and a passion<br />
-        for creating seamless user experiences. My mission is to bridge the gap
-        between design and functionality.<br />
-        My journey in the world of technology began with a spark of curiosity,
-        and it has since evolved into a deep-seated love affair with code.
+        CSS, React, Git, Firebase, and JavaScript. With an unquenchable thirst
+        for all things tech, I have a strong foundation in web development and a
+        passion for creating seamless user experiences. My mission is to bridge
+        the gap between design and functionality. My journey in the world of
+        technology began with a spark of curiosity, and it has since evolved
+        into a deep-seated love affair with code.
       </p>
     </div>
     <!--skills section with svgs of all skills I currently posses-->
     <!--TODO: Add git, firebase and C# svgs to skills-->
     <div class="skills">
       <h1 class="skills-name">Skills</h1>
+      <div class="html-box"></div>
+      <div class="css-box"></div>
+      <div class="js-box"></div>
+      <div class="react-box"></div>
       <svg
         class="html-svg"
         width="100px"
@@ -112,6 +120,7 @@
         />
       </svg>
       <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
       <svg
         class="css-svg"
         width="100px"
@@ -335,6 +344,7 @@
         loader.style.display = "none";
       });
     </script>
+    <!--Footer containing copyright-->
     <footer>
       <div class="footer-bar"></div>
       <h1 class="copyright">Copyright © 2023. All rights reserved</h1>
