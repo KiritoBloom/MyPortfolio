@@ -942,12 +942,12 @@ nav a:hover + .line3 {
   }
 
   body {
-    background-size: 415px 415px;
+    background-size: 428px 428px;
     background-position-y: 80px;
   }
 
   .chrome-box {
-    margin-top: 184%;
+    margin-top: 155%;
     width: 400px;
     height: 700px;
   }
@@ -955,7 +955,7 @@ nav a:hover + .line3 {
   .chrome-header {
     width: 400px;
     margin-top: -40%;
-    margin-left: -22.6%;
+    margin-left: -20.8%;
   }
 
   .chrome-tab {
@@ -1053,6 +1053,23 @@ nav a:hover + .line3 {
 
   .project-container {
     margin-top: 10%;
+  }
+
+  .project-box {
+    width: 400px;
+    height: 600px;
+    margin-left: 3.5%;
+  }
+
+  .project-img {
+    width: 350px;
+    height: 350px;
+    margin-left: 6%;
+  }
+
+  .project-title {
+    margin-top: 5%;
+    margin-left: 31%;
   }
 
   .line1 {
