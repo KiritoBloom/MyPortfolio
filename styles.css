@@ -29,7 +29,9 @@ body::-webkit-scrollbar {
 }
 
 #preloader {
-  background: white url(../Images/loader.gif) no-repeat center center;
+  background: white
+    url(https://www.icegif.com/wp-content/uploads/2023/07/icegif-1262.gif)
+    no-repeat center center;
   height: 100vh;
   width: 100%;
   position: fixed;
