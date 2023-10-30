@@ -24,7 +24,7 @@
     <script src="link.js" defer></script>
   </head>
   <body>
-    <!--Navigation center where users can choose to go to any of the options with a preloader div which is loaded until the whole page loads-->
+    <!--Navigation center where users can choose to go to any of the options with a preloader div which is used until the whole page loads-->
     <div id="preloader"></div>
     <nav id="navbar">
       <a href="#text-container">About</a>
@@ -70,45 +70,53 @@
       </div>
     </h1>
     <!--About me section with skills listed on the bottom of the container-->
-    <div class="chrome-box" id="chrome-header">
-      <div class="chrome-header"></div>
-      <span class="red-dot"></span>
-      <span class="yellow-dot"></span>
-      <span class="green-dot"></span>
-      <div class="tab-box" id="about-tab"></div>
-      <h1 class="chrome-tab">About</h1>
-      <h1 class="about-title">About Me</h1>
-      <p class="about-desc">
-        Hello! I'm Moe, a dedicated Frontend Developer proficient in HTML, CSS,
-        React, Git, Firebase, and JavaScript. My journey into the world of
-        technology started with a spark of curiosity, evolving over the years
-        into a deep-seated love affair with coding. With an unyielding passion
-        for technology, I have built a strong foundation in web development and
-        a knack for creating seamless user experiences. My mission is to bridge
-        the gap between design and functionality, ensuring that every digital
-        product I work on not only looks great but also functions flawlessly.
-      </p>
-      <h2 class="skills">Skills:</h2>
-      <div class="html"><h1 class="html-title">HTML</h1></div>
-      <div class="css"><h1 class="css-title">CSS</h1></div>
-      <div class="js"><h1 class="js-title">JavaScript</h1></div>
-      <div class="react">
-        <h1 class="react-title">React</h1>
-      </div>
-      <div class="git"><h1 class="git-title">Git</h1></div>
-      <div class="firebase">
-        <h1 class="firebase-title">Firebase</h1>
-      </div>
-      <div class="boot">
-        <h1 class="boot-title">Bootstrap</h1>
-      </div>
-      <div class="redux">
-        <h1 class="redux-title">Redux</h1>
+    <div class="about-conatiner" id="text-container">
+      <div class="about-box">
+        <div class="about-header">
+          <div class="about-tab"><h1 class="abouttab-title">About</h1></div>
+          <div class="about-dots">
+            <div class="red-dot"></div>
+            <div class="yellow-dot"></div>
+            <div class="green-dot"></div>
+          </div>
+        </div>
+        <h1 class="about-head">About Me</h1>
+        <p class="about-desc">
+          Hello! I'm Moe, a dedicated Frontend Developer proficient in HTML,
+          CSS, React, Git, Firebase, and JavaScript. My journey into the world
+          of technology started with a spark of curiosity, evolving over the
+          years into a deep-seated love affair with coding. With an unyielding
+          passion for technology, I have built a strong foundation in web
+          development and a knack for creating seamless user experiences. My
+          mission is to bridge the gap between design and functionality,
+          ensuring that every digital product I work on not only looks great but
+          also functions flawlessly.
+        </p>
+        <h2 class="skills">Skills:</h2>
+        <div class="skills-container">
+          <div class="html"><h1 class="html-title">HTML</h1></div>
+          <div class="css"><h1 class="css-title">CSS</h1></div>
+          <div class="js"><h1 class="js-title">JavaScript</h1></div>
+          <div class="react">
+            <h1 class="react-title">React</h1>
+          </div>
+          <div class="git"><h1 class="git-title">Git</h1></div>
+          <div class="firebase">
+            <h1 class="firebase-title">Firebase</h1>
+          </div>
+          <div class="boot">
+            <h1 class="boot-title">Bootstrap</h1>
+          </div>
+          <div class="redux">
+            <h1 class="redux-title">Redux</h1>
+          </div>
+        </div>
       </div>
     </div>
+
     <!--Project container containing projects that have been created also containing links to github code and links to live demos of the projects-->
     <h1 class="project-header">Projects</h1>
-    <div class="project-container">
+    <div class="project-container" id="projects-container">
       <div class="project-box">
         <img
           src="https://placeholder.pics/svg/400x400/DEDEDE/FF2DD8/placeholder"
