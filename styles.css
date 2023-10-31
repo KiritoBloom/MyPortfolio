@@ -766,7 +766,7 @@ nav a:hover + .line3 {
   }
 
   .about-header {
-    width: 23.53rem;
+    width: 23.49rem;
     margin-left: -0.45%;
     margin-top: -11.3%;
   }
@@ -812,8 +812,8 @@ nav a:hover + .line3 {
 
   .firebase {
     position: absolute;
+    margin-top: 10%;
     left: 7%;
-    top: 165%;
   }
 
   .firebase-title {
@@ -824,8 +824,8 @@ nav a:hover + .line3 {
 
   .boot {
     position: absolute;
-    left: 32%;
-    top: 165%;
+    margin-top: 10%;
+    left: 34%;
   }
 
   .boot-title {
@@ -836,8 +836,8 @@ nav a:hover + .line3 {
 
   .redux {
     position: absolute;
-    left: 62%;
-    top: 165%;
+    margin-top: 10%;
+    left: 66%;
   }
 
   .redux-title {
