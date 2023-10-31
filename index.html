@@ -22,6 +22,7 @@
       rel="stylesheet"
     />
     <script src="link.js" defer></script>
+    <script src="app.js" defer></script>
   </head>
   <body>
     <!--Navigation center where users can choose to go to any of the options with a preloader div which is used until the whole page loads-->
@@ -71,7 +72,7 @@
     </h1>
     <!--About me section with skills listed on the bottom of the container-->
     <div class="about-conatiner" id="text-container">
-      <div class="about-box">
+      <div class="about-box hidden">
         <div class="about-header">
           <div class="about-tab"><h1 class="abouttab-title">About</h1></div>
           <div class="about-dots">
@@ -116,7 +117,7 @@
 
     <!--Project container containing projects that have been created also containing links to github code and links to live demos of the projects-->
     <h1 class="project-header">Projects</h1>
-    <div class="project-container" id="projects-container">
+    <div class="project-container hidden" id="projects-container">
       <div class="project-box">
         <img
           src="https://placeholder.pics/svg/400x400/DEDEDE/FF2DD8/placeholder"
@@ -132,7 +133,7 @@
       </div>
     </div>
     <!--Contact form using form submit to get emails directed to me-->
-    <div class="contact-box">
+    <div class="contact-box hidden">
       <h1 class="contact-intro">
         Lets Get In <span class="cnt-touch">Touch!</span>
       </h1>
