@@ -702,11 +702,16 @@ nav a:hover + .line3 {
   font-family: "Poppins", "Gill Sans";
   top: 60%;
   left: 3%;
+  transition: 0.3s;
 }
 
 .email-name a {
   text-decoration: underline;
   color: white;
+}
+
+.email-name:hover {
+  transform: scale(1.1);
 }
 
 .github-icon {
@@ -718,6 +723,11 @@ nav a:hover + .line3 {
 .github-icon a {
   font-size: 50px;
   color: white;
+  transition: 0.3s;
+}
+
+.github-icon a:hover {
+  color: black;
 }
 
 .linkedin-icon {
@@ -729,6 +739,11 @@ nav a:hover + .line3 {
 .linkedin-icon a {
   font-size: 50px;
   color: white;
+  transition: 0.3s;
+}
+
+.linkedin-icon a:hover {
+  color: black;
 }
 
 .footer-bar {
@@ -857,7 +872,7 @@ nav a:hover + .line3 {
   .project-box {
     width: 400px;
     height: 600px;
-    margin-left: 3.5%;
+    margin: 0 auto;
   }
 
   .project-img {
@@ -917,8 +932,8 @@ nav a:hover + .line3 {
   }
 
   .contact-box {
-    top: 330%;
-    left: 4%;
+    margin-top: 100%;
+    margin-left: -20.3%;
     width: 383.5px;
     height: 1000px;
   }
