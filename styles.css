@@ -19,7 +19,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: url(Images/blob-scene-haikei.svg) no-repeat;
+  background: url(../Images/blob-scene-haikei.svg) no-repeat;
   /*background-image: url(../Images/wave-background.svg);*/
   background-size: 100% 100%;
   background-position: 0 -450px;
@@ -850,7 +850,7 @@ nav a:hover + .line3 {
 /* Styles for screens less than 768px wide */
 @media screen and (max-width: 767px) {
   body {
-    background-image: url(Images/mobile-back.svg);
+    background-image: url(../Images/mobile-back.svg);
   }
 
   .navbar-container {
@@ -997,6 +997,11 @@ nav a:hover + .line3 {
     top: 30%;
   }
 
+  .background {
+    position: absolute;
+    top: 300%;
+  }
+
   @keyframes slice {
     0%,
     27% {
@@ -1015,7 +1020,7 @@ nav a:hover + .line3 {
   }
 
   .contact-box {
-    margin: 0 -16vw;
+    margin: 100px -20.5vw;
     /*margin-top: 100%;
     margin-left: -20vw;
     margin-left: -20.3%;*/
@@ -1118,7 +1123,7 @@ nav a:hover + .line3 {
   }
 }
 /* Styles for screens between 768px and 992px wide */
-@media screen and (min-width: 767px) and (max-width: 1023px) {
+/*@media screen and (min-width: 767px) and (max-width: 1023px) {
   .contact-box {
     left: 1%;
     width: 800px;
@@ -1170,3 +1175,4 @@ nav a:hover + .line3 {
     width: 1330px;
   }
 }
+*/
