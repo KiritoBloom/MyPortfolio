@@ -1123,7 +1123,7 @@ nav a:hover + .line3 {
   }
 }
 /* Styles for screens between 768px and 992px wide */
-/*@media screen and (min-width: 767px) and (max-width: 1023px) {
+@media screen and (min-width: 767px) and (max-width: 1023px) {
   .contact-box {
     left: 1%;
     width: 800px;
@@ -1175,4 +1175,4 @@ nav a:hover + .line3 {
     width: 1330px;
   }
 }
-*/
+
