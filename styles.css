@@ -19,7 +19,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: url(Images/blob-scene-haikei.svg) no-repeat;
+  background: url(../Images/blob-scene-haikei.svg) no-repeat;
   /*background-image: url(../Images/wave-background.svg);*/
   background-size: 100% 100%;
   background-position: 0 -450px;
@@ -850,7 +850,7 @@ nav a:hover + .line3 {
 /* Styles for screens less than 768px wide */
 @media screen and (max-width: 767px) {
   body {
-    background-image: url(Images/mobile-back.svg);
+    background-image: url(../Images/mobile-back.svg);
   }
 
   .navbar-container {
@@ -995,11 +995,6 @@ nav a:hover + .line3 {
     font-size: 32px;
     left: 2%;
     top: 30%;
-  }
-
-  .background {
-    position: absolute;
-    top: 300%;
   }
 
   @keyframes slice {
