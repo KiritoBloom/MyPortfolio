@@ -25,9 +25,54 @@
     <script src="app.js" defer></script>
   </head>
   <body>
+    <div class="background">
+      <svg
+        class="background2"
+        id="visual"
+        viewBox="0 0 2000 600"
+        height="600"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        version="1.1"
+      >
+        <path
+          d="M0 209L33.3 189.2C66.7 169.3 133.3 129.7 200 131.2C266.7 132.7 333.3 175.3 400 197.2C466.7 219 533.3 220 600 209.7C666.7 199.3 733.3 177.7 800 161C866.7 144.3 933.3 132.7 1000 139.3C1066.7 146 1133.3 171 1200 163.3C1266.7 155.7 1333.3 115.3 1400 104.5C1466.7 93.7 1533.3 112.3 1600 121C1666.7 129.7 1733.3 128.3 1800 124.7C1866.7 121 1933.3 115 1966.7 112L2000 109L2000 0L1966.7 0C1933.3 0 1866.7 0 1800 0C1733.3 0 1666.7 0 1600 0C1533.3 0 1466.7 0 1400 0C1333.3 0 1266.7 0 1200 0C1133.3 0 1066.7 0 1000 0C933.3 0 866.7 0 800 0C733.3 0 666.7 0 600 0C533.3 0 466.7 0 400 0C333.3 0 266.7 0 200 0C133.3 0 66.7 0 33.3 0L0 0Z"
+          fill="#bbc9c3"
+          stroke-linecap="round"
+          stroke-linejoin="miter"
+        ></path>
+      </svg>
+    </div>
     <!--Navigation center where users can choose to go to any of the options with a preloader div which is used until the whole page loads-->
     <div id="preloader"></div>
-    <nav id="navbar">
+    <div class="navbar-container">
+      <div class="navbar">
+        <svg
+          class="nav-image"
+          width="70.8223393001694"
+          height="60.57000732421875"
+          viewBox="0 0 2.5000000000000004 2.232484040838155"
+          class="css-1j8o68f"
+        >
+          <defs id="SvgjsDefs1579"></defs>
+          <g
+            id="SvgjsG1580"
+            featurekey="nameFeature-0"
+            transform="matrix(0.07961783052588638,0,0,0.07961783052588638,-7.592948010052335e-8,-0.9522291801973002)"
+            fill="#000000"
+          >
+            <path
+              d="M5.64 11.96 l11.6 21.8 l4.84 -8.96 l2.32 15.2 l1.44 0 l-3 -19.68 l-5.6 10.36 l-9.96 -18.72 l-1.64 0 z M18.4 22.72 l-1.88 3.48 l0.84 1.52 l2.64 -5 l3.52 -6.56 l0.12 -0.28 l1.32 -2.44 l0.96 0 l0.12 0.96 l3 19.52 l0.68 4.6 l-1.32 0 l-3.04 -19.8 l-0.36 -2.4 l-1.12 2.12 l3.2 20.96 l-0.04 0 l0.12 0.6 l4.24 0 l-4.24 -28.04 l-3.08 0 z M15.96 34.12 l-11.48 -21.64 l-0.24 -0.4 l-4.24 27.92 l7 0 l1.28 -8.28 l-0.84 -1.56 l-0.32 -0.6 l-1.36 8.96 l-4.08 0 l3.36 -21.92 l12.24 23.04 l4.36 -8.28 l-0.32 -2.12 l-0.04 -0.28 l-4 7.6 z M6.48 25.240000000000002 l7.84 14.76 l1.64 0 l-10.24 -19.24 l-2.6 16.72 l1.44 0 z"
+            ></path>
+          </g>
+        </svg>
+        <!--<img class="nav-image" alt="placeholder" src="../Images/Logo.jpg" />-->
+        <a href="#text-container">About</a>
+        <a href="#projects-container">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+    <!--<nav id="navbar">
       <a href="#text-container">About</a>
       <div class="line1"></div>
       <a href="#projects-container">Projects</a>
@@ -35,7 +80,7 @@
       <a href="#contact">Contact</a>
       <div class="line3"></div>
       <i class="fa-regular fa-sun" id="toggleDark"></i>
-    </nav>
+    </nav>-->
 
     <!--Home button that scrolls up to the top of the page with an svg of the home icon-->
     <a href="#contact">
