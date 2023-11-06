@@ -28,6 +28,19 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+  transition: all 2s;
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(0px);
+  transform: translateX(-100%);
+}
+
 #preloader {
   background: white
     url(https://www.icegif.com/wp-content/uploads/2023/07/icegif-1262.gif)
@@ -38,16 +51,10 @@ body::-webkit-scrollbar {
   z-index: 100;
 }
 
-.background {
+.back2-continue {
   position: absolute;
-  top: 270%;
-  left: 0%;
-  z-index: 10;
-  width: 100%;
-}
-
-.background2 {
-  width: 100%;
+  top: 125.4%;
+  width: 467.5px;
 }
 
 .navbar-container {
@@ -279,7 +286,7 @@ nav a:hover + .line3 {
 
 .about-box {
   margin: 0 auto;
-  margin-top: 50%;
+  margin-top: 55%;
   border: 2px solid black;
   width: 45rem;
   height: 30rem;
@@ -494,19 +501,6 @@ nav a:hover + .line3 {
   margin-left: 8%;
 }
 
-.show {
-  opacity: 1;
-  filter: blur(0);
-  transform: translateX(0);
-  transition: all 2s;
-}
-
-.hidden {
-  opacity: 0;
-  filter: blur(0px);
-  transform: translateX(-100%);
-}
-
 .project-header {
   font-family: "Poppins", "Gill Sans";
   font-weight: bold;
@@ -556,7 +550,7 @@ nav a:hover + .line3 {
   top: 330%;
   left: 21%;*/
   margin: 0 auto;
-  margin-top: 35%;
+  margin-top: 20%;
   border-radius: 10px 10px 10px 10px;
   margin-bottom: 50px;
   box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
@@ -834,13 +828,13 @@ nav a:hover + .line3 {
   height: 60px;
   background: black /*linear-gradient(to right, purple, crimson)*/;
   position: absolute;
-  top: 400%;
+  top: 420%;
 }
 
 .copyright {
   position: absolute;
   font-size: 20px;
-  top: 402%;
+  top: 422%;
   left: 20%;
   color: white;
   font-family: "Poppins", "Gill Sans";
@@ -857,6 +851,10 @@ nav a:hover + .line3 {
 
   .background {
     margin-top: 135%;
+  }
+
+  .back2-continue {
+    display: none;
   }
 
   .navbar-container {
@@ -1093,12 +1091,12 @@ nav a:hover + .line3 {
     width: 35px;
     height: 35px;
   }
-
+  /*
   .title {
     position: absolute;
     left: -2%;
     top: 25%;
-  }
+  }*/
 
   .four-pointed-star {
     top: 34%;
