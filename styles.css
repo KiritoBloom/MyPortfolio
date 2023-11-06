@@ -19,7 +19,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: url(Images/blob-scene-haikei.svg) no-repeat;
+  background: url(../Images/blob-scene-haikei.svg) no-repeat;
   background-size: 100% 100%;
   background-position: 0 -1000px;
 }
@@ -93,96 +93,6 @@ body::-webkit-scrollbar {
   margin-top: 1%;
   margin-right: 50%;
 }
-
-/*.navbar {
-  margin-top: -49.5%;
-  margin-left: -58%;
-  border: 2px solid white;
-  border-radius: 10px 10px 10px 10px;
-  width: 54rem;
-  height: 5rem;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-
-.navbar a {
-  text-decoration: none;
-  color: black;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  font-family: "Poppins", "Gill Sans";
-
-}*/
-/*nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  margin-top: 10px;
-  margin-right: 50px;
-}
-nav a {
-  text-decoration: none;
-  color: black;
-  font-size: 20px;
-  font-family: "Poppins", "Gill Sans", Calibri, "Trebuchet MS", sans-serif;
-  padding-left: 9px;
-  font-weight: bold;
-}
-
-nav i {
-  font-size: 25px;
-  cursor: pointer;
-  position: relative;
-  padding-left: 9px;
-}
-
-.line1 {
-  width: 60px;
-  height: 3px;
-  position: absolute;
-  background: cyan;
-  top: 90%;
-  left: 3%;
-  opacity: 0;
-  transition: all 0.3s ease-in-out;
-  border-radius: 0 2px 0 2px;
-}
-
-.line2 {
-  width: 75px;
-  height: 3px;
-  position: absolute;
-  background: cyan;
-  top: 90%;
-  left: 28%;
-  opacity: 0;
-  transition: all 0.3s ease-in-out;
-  border-radius: 0 2px 0 2px;
-}
-
-.line3 {
-  width: 80px;
-  height: 3px;
-  position: absolute;
-  background: cyan;
-  top: 90%;
-  left: 60%;
-  opacity: 0;
-  transition: all 0.3s ease-in-out;
-  border-radius: 0 2px 0 2px;
-}
-
-nav a:hover + .line1 {
-  opacity: 1;
-}
-
-nav a:hover + .line2 {
-  opacity: 1;
-}
-nav a:hover + .line3 {
-  opacity: 1;
-}*/
 
 .home-button {
   background: none;
@@ -545,10 +455,7 @@ nav a:hover + .line3 {
 .contact-box {
   width: 900px;
   height: 500px;
-  background: rgb(73, 73, 73) /*(83, 12, 83) */;
-  /*position: absolute;
-  top: 330%;
-  left: 21%;*/
+  background: rgb(73, 73, 73);
   margin: 0 auto;
   margin-top: 20%;
   border-radius: 10px 10px 10px 10px;
@@ -845,7 +752,7 @@ nav a:hover + .line3 {
 /* Styles for screens less than 768px wide */
 @media screen and (max-width: 767px) {
   body {
-    background-image: url(Images/mobile-back.svg);
+    background-image: url(../Images/mobile-back.svg);
     background-position: 0 -1100px;
   }
 
