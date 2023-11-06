@@ -19,7 +19,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: url(../Images/blob-scene-haikei.svg) no-repeat;
+  background: url(Images/blob-scene-haikei.svg) no-repeat;
   background-size: 100% 100%;
   background-position: 0 -1000px;
 }
@@ -752,7 +752,7 @@ body::-webkit-scrollbar {
 /* Styles for screens less than 768px wide */
 @media screen and (max-width: 767px) {
   body {
-    background-image: url(../Images/mobile-back.svg);
+    background-image: url(Images/mobile-back.svg);
     background-position: 0 -1100px;
   }
 
