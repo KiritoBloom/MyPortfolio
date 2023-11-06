@@ -19,10 +19,9 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: url(Images/blob-scene-haikei.svg) no-repeat;
-  /*background-image: url(../Images/wave-background.svg);*/
+  background: url(../Images/blob-scene-haikei.svg) no-repeat;
   background-size: 100% 100%;
-  background-position: 0 -450px;
+  background-position: 0 -1000px;
 }
 
 body::-webkit-scrollbar {
@@ -553,9 +552,11 @@ nav a:hover + .line3 {
   width: 900px;
   height: 500px;
   background: rgb(83, 12, 83);
-  position: absolute;
+  /*position: absolute;
   top: 330%;
-  left: 21%;
+  left: 21%;*/
+  margin: 0 auto;
+  margin-top: 35%;
   border-radius: 10px 10px 10px 10px;
   margin-bottom: 50px;
   box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
@@ -850,7 +851,7 @@ nav a:hover + .line3 {
 /* Styles for screens less than 768px wide */
 @media screen and (max-width: 767px) {
   body {
-    background-image: url(Images/mobile-back.svg);
+    background-image: url(../Images/mobile-back.svg);
   }
 
   .navbar-container {
@@ -1015,7 +1016,7 @@ nav a:hover + .line3 {
   }
 
   .contact-box {
-    margin: 0 -16vw;
+    margin: 100px -20.5vw;
     /*margin-top: 100%;
     margin-left: -20vw;
     margin-left: -20.3%;*/
