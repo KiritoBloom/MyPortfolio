@@ -756,7 +756,7 @@ body::-webkit-scrollbar {
 @media screen and (max-width: 767px) {
   body {
     background-image: url(../Images/mobile-back.svg);
-    background-position: 0 -1300px;
+    background-position: 0 -1200px;
   }
 
   .background {
