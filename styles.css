@@ -41,27 +41,28 @@ body::-webkit-scrollbar {
   transform: translateX(-100%);
 }
 
-#preloader {
+/*#preloader {
   background: white
     url(https://www.icegif.com/wp-content/uploads/2023/07/icegif-1262.gif)
     no-repeat center center;
-  height: 100vh;
+  height: 300vh;
   width: 100%;
   position: fixed;
   z-index: 100;
-}
+}*/
 
 .back2-continue {
   position: absolute;
-  top: 125.4%;
-  width: 467.5px;
+  top: 124%;
+  width: 461px;
 }
 
 .navbar-container {
   position: fixed;
-  top: 2%;
-  left: 20vw;
-  transform: translate(-50%, -50%);
+  top: 105%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   z-index: 10;
 }
 
@@ -139,9 +140,11 @@ body::-webkit-scrollbar {
   font-weight: bold;
   color: black;
   text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
-  position: absolute;
+  /*position: absolute;
   top: 30%;
-  left: -1%;
+  left: -1%;*/
+  margin: 0 auto;
+  margin-top: 20%;
   font-family: "Poppins", "Gill Sans";
   overflow: hidden;
 }
@@ -196,7 +199,7 @@ body::-webkit-scrollbar {
 
 .about-box {
   margin: 0 auto;
-  margin-top: 55%;
+  margin-top: 30%;
   border: 2px solid black;
   width: 45rem;
   height: 30rem;
@@ -766,8 +769,8 @@ body::-webkit-scrollbar {
 
   .navbar-container {
     position: fixed;
-    top: 29%;
-    left: 103%;
+    top: 19%;
+    left: 38%;
   }
 
   .navbar {
@@ -785,7 +788,7 @@ body::-webkit-scrollbar {
     width: 50px;
     height: 40px;
     position: absolute;
-    margin-right: 82%;
+    margin-right: 125%;
   }
 
   .about-container {
