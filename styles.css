@@ -756,7 +756,7 @@ body::-webkit-scrollbar {
 @media screen and (max-width: 767px) {
   body {
     background-image: url(../Images/mobile-back.svg);
-    background-position: 0 -1100px;
+    background-position: 0 -1300px;
   }
 
   .background {
@@ -877,7 +877,7 @@ body::-webkit-scrollbar {
   }
 
   .project-header {
-    margin-top: 150%;
+    margin-top: 100%;
   }
 
   .project-container {
@@ -906,7 +906,7 @@ body::-webkit-scrollbar {
   }
   .title {
     margin: 0 auto;
-    margin-top: 2%;
+    margin-top: 60%;
     /*position: absolute;
     left: 2%;
     top: 30%;*/
