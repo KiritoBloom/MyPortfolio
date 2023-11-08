@@ -32,7 +32,7 @@ body::-webkit-scrollbar {
   opacity: 1;
   filter: blur(0);
   transform: translateX(0);
-  transition: all 2s;
+  transition: all 1s;
 }
 
 .hidden {
@@ -98,7 +98,7 @@ body::-webkit-scrollbar {
 .home-button {
   background: none;
   border: none;
-  padding: 15px 15px;
+  padding: 13px 13px;
   border-radius: 25%;
   position: fixed;
   top: 88%;
@@ -119,8 +119,8 @@ body::-webkit-scrollbar {
   position: absolute;
   font-family: "Poppins", "Gill Sans";
   top: 60%;
-  left: 9%;
-  font-size: 10px;
+  left: 10%;
+  font-size: 9px;
   font-weight: bold;
 }
 
@@ -139,8 +139,8 @@ body::-webkit-scrollbar {
   font-size: 60px;
   font-weight: bold;
   color: black;
-  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
-  /*position: absolute;
+  /*text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+  position: absolute;
   top: 30%;
   left: -1%;*/
   margin: 0 auto;
@@ -200,15 +200,16 @@ body::-webkit-scrollbar {
 .about-box {
   margin: 0 auto;
   margin-top: 30%;
-  border: 2px solid black;
+  border: 2px solid transparent;
   width: 45rem;
   height: 30rem;
   border-radius: 0 0 0.5rem 0.5rem;
   background: rgb(246, 245, 245);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .about-header {
-  border: 2px solid black;
+  border: 2px solid transparent;
   border-radius: 0.5rem 0.5rem 0 0;
   width: 45rem;
   height: 2.5rem;
@@ -221,7 +222,7 @@ body::-webkit-scrollbar {
 .about-tab {
   margin-top: 0.9%;
   margin-left: 2%;
-  border: 2px solid black;
+  border: 2px solid white;
   border-bottom: 0px;
   border-radius: 0.5rem 0.5rem 0 0;
   width: 8rem;
@@ -426,7 +427,7 @@ body::-webkit-scrollbar {
 }
 
 .project-box {
-  border: 2px solid white;
+  border: 2px solid transparent;
   border-radius: 10px 10px 10px 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   width: 800px;
@@ -458,7 +459,7 @@ body::-webkit-scrollbar {
 .contact-box {
   width: 900px;
   height: 500px;
-  background: rgb(73, 73, 73);
+  background: rgb(90, 89, 89);
   margin: 0 auto;
   margin-top: 20%;
   border-radius: 10px 10px 10px 10px;
@@ -566,7 +567,9 @@ body::-webkit-scrollbar {
 }
 
 .cnt-touch {
-  color: crimson;
+  text-decoration: underline;
+  font-size: 40px;
+  color: white;
 }
 
 .cnt-desc {
@@ -673,6 +676,10 @@ body::-webkit-scrollbar {
     opacity: 0;
   }
 
+  25% {
+    transform: translateX(-5px);
+  }
+
   100% {
     transform: translateX(0px);
     opacity: 1;
@@ -680,7 +687,7 @@ body::-webkit-scrollbar {
 }
 
 .submitBtn:active {
-  transform: scale(0.97);
+  transform: scale(0.98);
 }
 
 .email-name {
@@ -1035,45 +1042,90 @@ body::-webkit-scrollbar {
   }
 }
 /* Styles for screens between 768px and 992px wide */
-@media screen and (min-width: 767px) and (max-width: 1023px) {
-  .contact-box {
-    left: 1%;
-    width: 800px;
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    background-position: -150px -700px;
+    background-size: 1000px 2000px;
   }
 
-  .contact-container {
-    left: 54%;
-    width: 350px;
+  .back2-continue {
+    display: none;
   }
 
-  .cnt-about {
-    font-size: 14px;
+  .navbar-container {
+    position: fixed;
+    top: 25%;
+    left: 42%;
   }
 
-  .name {
-    width: 300px;
+  .navbar {
+    width: 40rem;
   }
 
-  .email {
-    width: 300px;
+  .nav-image {
+    margin-right: 32%;
   }
 
-  .message {
-    width: 300px;
-  }
-
-  .contact-title {
-    left: 13%;
-  }
-
-  .rotating-shape {
-    width: 30px;
-    height: 30px;
+  .navbar a {
+    font-size: 1.4rem;
   }
 
   .home-button {
+    left: 89%;
     top: 90%;
-    left: 90%;
+  }
+
+  .project-header {
+    margin-top: 25%;
+  }
+
+  .project-box {
+    width: 750px;
+    height: 350px;
+  }
+
+  .project-img {
+    width: 300px;
+    height: 300px;
+    margin-top: 4%;
+    margin-left: 55%;
+  }
+
+  .project-title {
+    margin-top: -30%;
+  }
+
+  .footer-bar {
+    margin-top: -130%;
+  }
+
+  .copyright {
+    margin-top: -130%;
+  }
+
+  .contact-container {
+    margin-left: 2%;
+    width: 325px;
+  }
+
+  .email {
+    width: 285px;
+  }
+
+  .name {
+    width: 285px;
+  }
+
+  .message {
+    width: 285px;
+  }
+
+  .contact-title {
+    margin-left: -12%;
+  }
+
+  .contact-box {
+    width: 750px;
   }
 }
 

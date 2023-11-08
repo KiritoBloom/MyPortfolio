@@ -91,7 +91,7 @@
       </div>
     </h1>
     <!--About me section with skills listed on the bottom of the container-->
-    <div class="about-conatiner" id="text-container">
+    <div class="about-conatiner">
       <div class="about-box hidden">
         <div class="about-header">
           <div class="about-tab"><h1 class="abouttab-title">About</h1></div>
@@ -134,10 +134,10 @@
         </div>
       </div>
     </div>
-
+    <div id="text-container"></div>
     <!--Project container containing projects that have been created also containing links to github code and links to live demos of the projects-->
-    <h1 class="project-header">Projects</h1>
-    <div class="project-container hidden" id="projects-container">
+    <h1 class="project-header" id="projects-container">Projects</h1>
+    <div class="project-container hidden">
       <div class="project-box">
         <img
           src="https://placeholder.pics/svg/400x400/DEDEDE/FF2DD8/placeholder"
@@ -153,7 +153,7 @@
       </div>
     </div>
     <!--Contact form using form submit to get emails directed to me-->
-    <div class="contact-box hidden">
+    <div class="contact-box hidden" id="contact">
       <h1 class="contact-intro">
         Lets Get In <span class="cnt-touch">Touch!</span>
       </h1>
@@ -168,12 +168,15 @@
       </p>
       <p class="email-name">
         <i class="fa-solid fa-envelope"></i>
-        <a href="mailto:mohamedahmedelsaadi@gmail.com"
+        <a href="mailto:mohamedahmedelsaadi@gmail.com" title="My Email"
           >mohamedahmedelsaadi@gmail.com</a
         >
       </p>
       <p class="github-icon">
-        <a href="https://github.com/KiritoBloom" target="_blank"
+        <a
+          href="https://github.com/KiritoBloom"
+          target="_blank"
+          title="Github Page"
           ><i class="fa-brands fa-github"></i
         ></a>
       </p>
@@ -182,10 +185,11 @@
         <a
           href="https://www.linkedin.com/in/mohamed-ahmed-aa2b09288/"
           target="_blank"
+          title="Linkedin Page"
           ><i class="fa-brands fa-linkedin"></i
         ></a>
       </p>
-      <div class="contact-container" id="contact">
+      <div class="contact-container">
         <form
           action="https://formsubmit.co/609f780004f5ee3daff58986caa094cf"
           method="POST"
