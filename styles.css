@@ -41,6 +41,10 @@ body::-webkit-scrollbar {
   transform: translateX(-100%);
 }
 
+.mobile-back2 {
+  display: none;
+}
+
 /*#preloader {
   background: white
     url(https://www.icegif.com/wp-content/uploads/2023/07/icegif-1262.gif)
@@ -59,16 +63,22 @@ body::-webkit-scrollbar {
 
 .navbar-container {
   position: fixed;
+  top: 7%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  /*margin: auto;
+  position: fixed;
   top: 105%;
   left: 0;
   right: 0;
-  margin: 0 auto;
+  margin: 0 auto;*/
   z-index: 10;
 }
 
 .navbar {
-  margin-left: -57%;
-  margin-top: -49.5%;
+  /*margin-left: -57%;
+  margin-top: -49.5%;*/
   border: 2px solid white;
   border-radius: 10px 10px 10px 10px;
   width: 54rem;
@@ -774,10 +784,20 @@ body::-webkit-scrollbar {
     display: none;
   }
 
+  .mobile-back2 {
+    display: block;
+    position: absolute;
+    top: 195%;
+    left: -4.6%;
+    width: 500px;
+  }
+
   .navbar-container {
     position: fixed;
-    top: 19%;
-    left: 38%;
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
   }
 
   .navbar {
@@ -795,7 +815,7 @@ body::-webkit-scrollbar {
     width: 50px;
     height: 40px;
     position: absolute;
-    margin-right: 125%;
+    margin-right: 78%;
   }
 
   .about-container {
@@ -911,6 +931,7 @@ body::-webkit-scrollbar {
   .home-button {
     left: 80%;
   }
+
   .title {
     margin: 0 auto;
     margin-top: 60%;
@@ -940,9 +961,6 @@ body::-webkit-scrollbar {
   .contact-box {
     margin: 0 auto;
     margin-top: 70%;
-    /*margin-top: 100%;
-    margin-left: -20vw;
-    margin-left: -20.3%;*/
     width: 383.5px;
     height: 1000px;
   }
@@ -1008,12 +1026,6 @@ body::-webkit-scrollbar {
     width: 35px;
     height: 35px;
   }
-  /*
-  .title {
-    position: absolute;
-    left: -2%;
-    top: 25%;
-  }*/
 
   .four-pointed-star {
     top: 34%;
@@ -1130,11 +1142,6 @@ body::-webkit-scrollbar {
 }
 
 @media screen and (min-width: 1024px) {
-  .navbar {
-    position: absolute;
-    left: 79%;
-  }
-
   .aboutme-desc {
     width: 1330px;
   }
