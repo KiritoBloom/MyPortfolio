@@ -299,130 +299,151 @@ body::-webkit-scrollbar {
 }
 
 .skills-container {
-  display: flex;
-  flex-direction: row;
-  margin-top: -2%;
+  font-family: "Poppins", "Gill Sans";
+  font-size: 0.7rem;
   margin-left: 1%;
+  margin-top: -3%;
 }
-
-.html {
-  width: 80px;
-  height: 30px;
-  border: 2px black solid;
+.html-container {
+  border: 2px solid black;
+  width: 5rem;
+  height: 2rem;
   border-radius: 20px 20px 20px 20px;
-  margin-right: 1%;
+  margin-top: -2%;
 }
 
-.html-title {
-  font-family: "Poppins", "Gill Sans";
-  font-size: 20px;
-  margin-top: 2%;
-  margin-left: 13%;
+.html-in {
+  position: relative;
+  top: 9%;
+  left: 12%;
+  transform: translateY(-50%);
 }
 
-.css {
-  width: 70px;
-  height: 30px;
-  border: 2px black solid;
+.css-container {
+  border: 2px solid black;
+  width: 4rem;
+  height: 2rem;
   border-radius: 20px 20px 20px 20px;
-  margin-right: 1%;
+  margin-top: -4.9%;
+  margin-left: 12%;
 }
 
-.css-title {
-  font-family: "Poppins", "Gill Sans";
-  font-size: 20px;
-  margin-top: 3%;
-  margin-left: 20%;
+.css-in {
+  position: relative;
+  top: 9%;
+  left: 15%;
+  transform: translateY(-50%);
 }
 
-.js {
-  width: 120px;
-  height: 30px;
-  border: 2px black solid;
+.js-container {
+  border: 2px solid black;
+  width: 8rem;
+  height: 2rem;
   border-radius: 20px 20px 20px 20px;
-  margin-right: 1%;
-}
-
-.js-title {
-  font-family: "Poppins", "Gill Sans";
-  font-size: 17px;
-  margin-top: 3%;
-  margin-left: 6%;
-}
-
-.react {
-  width: 80px;
-  height: 30px;
-  border: 2px black solid;
-  border-radius: 20px 20px 20px 20px;
-  margin-right: 1%;
-}
-
-.react-title {
-  font-family: "Poppins", "Gill Sans";
-  font-size: 20px;
-  margin-top: 3%;
-  margin-left: 9%;
-}
-
-.git {
-  width: 60px;
-  height: 30px;
-  border: 2px black solid;
-  border-radius: 20px 20px 20px 20px;
-  margin-right: 1%;
-}
-
-.git-title {
-  font-family: "Poppins", "Gill Sans";
-  font-size: 20px;
-  margin-top: 3%;
+  margin-top: -4.9%;
   margin-left: 22%;
 }
 
-.firebase {
-  width: 100px;
-  height: 30px;
-  border: 2px black solid;
+.js-in {
+  position: relative;
+  top: 9%;
+  left: 3%;
+  transform: translateY(-50%);
+}
+
+.react-container {
+  border: 2px solid black;
+  width: 5rem;
+  height: 2rem;
   border-radius: 20px 20px 20px 20px;
-  margin-right: 1%;
+  margin-top: -4.9%;
+  margin-left: 41%;
 }
 
-.firebase-title {
-  font-family: "Poppins", "Gill Sans";
-  font-size: 17px;
-  margin-top: 4%;
-  margin-left: 10%;
+.react-in {
+  position: relative;
+  top: 9%;
+  left: 12%;
+  transform: translateY(-50%);
 }
 
-.boot {
-  width: 120px;
-  height: 30px;
-  border: 2px black solid;
+.bootstrap-container {
+  border: 2px solid black;
+  width: 8rem;
+  height: 2rem;
   border-radius: 20px 20px 20px 20px;
-  margin-right: 1%;
+  margin-top: -4.9%;
+  margin-left: 53%;
 }
 
-.boot-title {
-  font-family: "Poppins", "Gill Sans";
-  font-size: 20px;
+.bootstrap-in {
+  position: relative;
+  top: 9%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+
+.firebase-container {
+  border: 2px solid black;
+  width: 7rem;
+  height: 2rem;
+  border-radius: 20px 20px 20px 20px;
+  margin-top: -4.9%;
+  margin-left: 72%;
+}
+
+.firebase-in {
+  position: relative;
+  top: 9%;
+  left: 10%;
+  transform: translateY(-50%);
+}
+
+.git-container {
+  border: 2px solid black;
+  width: 3rem;
+  height: 2rem;
+  border-radius: 20px 20px 20px 20px;
+  margin-top: -4.9%;
+  margin-left: 89%;
+}
+
+.git-in {
+  position: relative;
+  top: 9%;
+  left: 15%;
+  transform: translateY(-50%);
+}
+
+.redux-container {
+  border: 2px solid black;
+  width: 5rem;
+  height: 2rem;
+  border-radius: 20px 20px 20px 20px;
   margin-top: 1%;
-  margin-left: 5%;
 }
 
-.redux {
-  width: 80px;
-  height: 30px;
-  border: 2px black solid;
+.redux-in {
+  position: relative;
+  top: 9%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+
+.c-container {
+  border: 2px solid black;
+  width: 3rem;
+  height: 2rem;
   border-radius: 20px 20px 20px 20px;
-  margin-right: 1%;
+  margin-top: -4.8%;
+  margin-left: 12%;
 }
 
-.redux-title {
-  font-family: "Poppins", "Gill Sans";
-  font-size: 20px;
-  margin-top: 3%;
-  margin-left: 8%;
+.c-in {
+  position: relative;
+  top: 9%;
+  left: 12%;
+  transform: translateY(-50%);
 }
 
 .project-header {
@@ -792,6 +813,11 @@ body::-webkit-scrollbar {
     width: 500px;
   }
 
+  .contact-me {
+    font-size: 0.5rem;
+    left: 13%;
+  }
+
   .navbar-container {
     position: fixed;
     top: 6%;
@@ -842,7 +868,60 @@ body::-webkit-scrollbar {
     margin-top: -6.5%;
   }
 
-  .html-title {
+  .html-container {
+    position: absolute;
+    top: 79%;
+  }
+
+  .css-container {
+    position: absolute;
+    top: 80.5%;
+    left: 12%;
+  }
+
+  .js-container {
+    position: absolute;
+    top: 80.5%;
+    left: 21%;
+  }
+
+  .react-container {
+    position: absolute;
+    top: 80.5%;
+    left: 37%;
+  }
+
+  .bootstrap-container {
+    position: absolute;
+    top: 86%;
+    left: -52%;
+  }
+
+  .firebase-container {
+    position: absolute;
+    top: 86%;
+    left: -35.5%;
+  }
+
+  .git-container {
+    position: absolute;
+    top: 91.5%;
+    left: -87%;
+  }
+
+  .redux-container {
+    position: absolute;
+    top: 83.3%;
+    left: 68%;
+  }
+
+  .c-container {
+    position: absolute;
+    top: 91.5%;
+    left: 5%;
+  }
+
+  /*.html-title {
     width: 4rem;
   }
 
@@ -901,7 +980,7 @@ body::-webkit-scrollbar {
     font-size: 1.3rem;
     margin-top: 1%;
     margin-left: 10%;
-  }
+  }*/
 
   .project-header {
     margin-top: 100%;
