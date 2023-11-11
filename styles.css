@@ -870,54 +870,54 @@ body::-webkit-scrollbar {
 
   .html-container {
     position: absolute;
-    top: 79%;
+    top: 82%;
   }
 
   .css-container {
     position: absolute;
-    top: 80.5%;
+    top: 83.3%;
     left: 12%;
   }
 
   .js-container {
     position: absolute;
-    top: 80.5%;
+    top: 83.3%;
     left: 21%;
   }
 
   .react-container {
     position: absolute;
-    top: 80.5%;
+    top: 83.3%;
     left: 37%;
   }
 
   .bootstrap-container {
     position: absolute;
-    top: 86%;
+    top: 89%;
     left: -52%;
   }
 
   .firebase-container {
     position: absolute;
-    top: 86%;
+    top: 89%;
     left: -35.5%;
   }
 
   .git-container {
     position: absolute;
-    top: 91.5%;
+    top: 94.5%;
     left: -87%;
   }
 
   .redux-container {
     position: absolute;
-    top: 83.3%;
+    top: 86.3%;
     left: 68%;
   }
 
   .c-container {
     position: absolute;
-    top: 91.5%;
+    top: 94.5%;
     left: 5%;
   }
 
@@ -1225,5 +1225,41 @@ body::-webkit-scrollbar {
 @media screen and (min-width: 1024px) {
   .aboutme-desc {
     width: 1330px;
+  }
+}
+
+@media screen and (max-width: 767px) and (orientation: landscape) {
+  .footer-bar {
+    top: 1065%;
+  }
+
+  .copyright {
+    top: 1069%;
+  }
+
+  .navbar-container {
+    top: 20%;
+  }
+
+  .navbar {
+    border: 2px solid black;
+  }
+
+  .home-button {
+    top: 77%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .navbar-container {
+    top: 10%;
+  }
+
+  .back2-continue {
+    top: 84%;
+  }
+
+  .home-button {
+    left: 89%;
   }
 }
