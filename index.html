@@ -23,17 +23,41 @@
     />
     <script src="link.js" defer></script>
     <script src="app.js" defer></script>
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/ldrs/dist/auto/trefoil.js"
+    ></script>
   </head>
   <body>
     <!--Divs containing Background Designs for the website-->
-     <!--<div class="back-continue">
+    <!--<div class="back-continue">
       <img alt="blob" src="../Images/blob2.png" class="back2-continue" />
     </div>
    <div class="back-mobile">
       <img src="../Images/Mobile-back2.webp" class="mobile-back2" />
     </div>-->
     <!--Navigation center where users can choose to go to any of the options with a preloader div which is used until the whole page loads-->
-    <div id="preloader"></div>
+    <!--<div id="preloader"></div>-->
+    <div id="preloader">
+      <l-trefoil
+        class="loader"
+        size="200"
+        stroke="4"
+        stroke-length="0.15"
+        bg-opacity="0.1"
+        speed="1.4"
+        color="black"
+      ></l-trefoil>
+      <div class="text-wrapper">
+        <span class="l" style="--i: 1">L</span>
+        <span class="o" style="--i: 2">O</span>
+        <span class="a" style="--i: 3">A</span>
+        <span class="d" style="--i: 4">D</span>
+        <span class="i" style="--i: 5">I</span>
+        <span class="n" style="--i: 6">N</span>
+        <span class="g" style="--i: 7">G</span>
+      </div>
+    </div>
     <div class="navbar-container">
       <div class="navbar">
         <svg
@@ -118,16 +142,19 @@
         </p>
         <h2 class="skills">Skills:</h2>
         <div class="skills-container">
-         <div class="html-container"><h1 class="html-in">HTML</h1></div>
-         <div class="css-container"><h1 class="css-in">CSS</h1></div>
-         <div class="js-container"><h1 class="js-in">JavaScript</h1></div>
-         <div class="react-container"><h1 class="react-in">React</h1></div>
-         <div class="bootstrap-container"><h1 class="bootstrap-in">Bootstrap</h1></div>
-         <div class="firebase-container"><h1 class="firebase-in">Firebase</h1></div>
-         <div class="git-container"><h1 class="git-in">Git</h1></div>
-         <div class="redux-container"><h1 class="redux-in">Redux</h1></div>
-         <div class="c-container"><h1 class="c-in">C#</h1></div>
+          <div class="html-container"><h1 class="html-in">HTML</h1></div>
+          <div class="css-container"><h1 class="css-in">CSS</h1></div>
+          <div class="js-container"><h1 class="js-in">JavaScript</h1></div>
+          <div class="react-container"><h1 class="react-in">React</h1></div>
+          <div class="bootstrap-container">
+            <h1 class="bootstrap-in">Bootstrap</h1>
           </div>
+          <div class="firebase-container">
+            <h1 class="firebase-in">Firebase</h1>
+          </div>
+          <div class="git-container"><h1 class="git-in">Git</h1></div>
+          <div class="redux-container"><h1 class="redux-in">Redux</h1></div>
+          <div class="c-container"><h1 class="c-in">C#</h1></div>
         </div>
       </div>
     </div>
