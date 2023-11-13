@@ -59,7 +59,7 @@ body::-webkit-scrollbar {
 
 .loader {
   position: fixed;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 10px;
@@ -867,6 +867,34 @@ body::-webkit-scrollbar {
     background-position: 0 -1200px;
   }
 
+  .loader {
+    top: 40%;
+  }
+
+  .l {
+    left: 6%;
+  }
+
+  .o {
+    left: 15%;
+  }
+
+  .a {
+    left: 30%;
+  }
+  .d {
+    left: 45%;
+  }
+  .i {
+    left: 60%;
+  }
+  .n {
+    left: 68%;
+  }
+  .g {
+    left: 84%;
+  }
+
   .background {
     margin-top: 135%;
   }
@@ -927,7 +955,7 @@ body::-webkit-scrollbar {
   .about-box {
     width: 23.5rem;
     height: 50rem;
-    margin-top: 150%;
+    margin-top: 100%;
   }
 
   .about-tab {
@@ -1090,6 +1118,10 @@ body::-webkit-scrollbar {
     font-size: 32px;
   }
 
+  .slider-title {
+    font-size: 2.3rem;
+  }
+
   @keyframes slice {
     0%,
     27% {
@@ -1209,6 +1241,34 @@ body::-webkit-scrollbar {
     background-size: 1000px 2000px;
   }
 
+  .loader {
+    top: 40%;
+  }
+
+  .l {
+    left: 25%;
+  }
+
+  .o {
+    left: 30%;
+  }
+
+  .a {
+    left: 38%;
+  }
+  .d {
+    left: 45%;
+  }
+  .i {
+    left: 53%;
+  }
+  .n {
+    left: 58%;
+  }
+  .g {
+    left: 65%;
+  }
+
   .back2-continue {
     display: none;
   }
@@ -1259,11 +1319,11 @@ body::-webkit-scrollbar {
   }
 
   .footer-bar {
-    margin-top: -130%;
+    margin-top: -180%;
   }
 
   .copyright {
-    margin-top: -130%;
+    margin-top: -180%;
   }
 
   .contact-container {

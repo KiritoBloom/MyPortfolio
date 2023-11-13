@@ -79,7 +79,7 @@
             ></path>
           </g>
         </svg>
-        <a href="#text-container">About</a>
+        <a href="#abouttext-container">About</a>
         <a href="#projects-container">Projects</a>
         <a href="#contact">Contact</a>
       </div>
@@ -108,7 +108,7 @@
     </a>
     <!--Title section with a scroll effect that changes between the three word listed below with the "Hi! I'm" being unchanged-->
     <h1 class="title" id="text-container">
-      Hi! I'm
+      <span class="slider-title">Hi! I'm</span>
       <div class="slider">
         <ul class="words">
           <li class="word">Moe</li>
@@ -117,11 +117,13 @@
         </ul>
       </div>
     </h1>
+
     <!--About me section with skills listed on the bottom of the container-->
     <div class="about-conatiner">
       <div class="about-box hidden">
         <div class="about-header">
           <div class="about-tab"><h1 class="abouttab-title">About</h1></div>
+          <div id="abouttext-container"></div>
           <div class="about-dots">
             <div class="red-dot"></div>
             <div class="yellow-dot"></div>
@@ -154,11 +156,12 @@
           </div>
           <div class="git-container"><h1 class="git-in">Git</h1></div>
           <div class="redux-container"><h1 class="redux-in">Redux</h1></div>
-          <div class="c-container"><h1 class="c-in">C#</h1></div>
+          <div class="c-container">
+            <h1 class="c-in">C#</h1>
+          </div>
         </div>
       </div>
     </div>
-    <div id="text-container"></div>
     <!--Project container containing projects that have been created also containing links to github code and links to live demos of the projects-->
     <h1 class="project-header" id="projects-container">Projects</h1>
     <div class="project-container hidden">
@@ -177,7 +180,8 @@
       </div>
     </div>
     <!--Contact form using form submit to get emails directed to me-->
-    <div class="contact-box hidden" id="contact">
+    <div id="contact"></div>
+    <div class="contact-box hidden">
       <h1 class="contact-intro">
         Lets Get In <span class="cnt-touch">Touch!</span>
       </h1>
