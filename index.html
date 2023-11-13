@@ -29,15 +29,7 @@
     ></script>
   </head>
   <body>
-    <!--Divs containing Background Designs for the website-->
-    <!--<div class="back-continue">
-      <img alt="blob" src="../Images/blob2.png" class="back2-continue" />
-    </div>
-   <div class="back-mobile">
-      <img src="../Images/Mobile-back2.webp" class="mobile-back2" />
-    </div>-->
-    <!--Navigation center where users can choose to go to any of the options with a preloader div which is used until the whole page loads-->
-    <!--<div id="preloader"></div>-->
+    <!--This section contains a preloader and a nav allowing easy access to any part of the portfolio-->
     <div id="preloader">
       <l-trefoil
         class="loader"
@@ -58,7 +50,7 @@
         <span class="g" style="--i: 7">G</span>
       </div>
     </div>
-    <div class="navbar-container">
+    <div class="navbar-container" id="home">
       <div class="navbar">
         <svg
           class="nav-image"
@@ -85,25 +77,11 @@
       </div>
     </div>
     <!--Home button that scrolls up to the top of the page with an svg of the home icon-->
-    <a href="#contact">
+    <a href="#home">
       <button class="home-button">
         <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-        <svg
-          class="email-button"
-          width="70px"
-          height="70px"
-          viewBox="0 0 24 24"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
-            d="M3.75 5.25L3 6V18L3.75 18.75H20.25L21 18V6L20.25 5.25H3.75ZM4.5 7.6955V17.25H19.5V7.69525L11.9999 14.5136L4.5 7.6955ZM18.3099 6.75H5.68986L11.9999 12.4864L18.3099 6.75Z"
-            fill="#080341"
-          />
-        </svg>
-        <h1 class="contact-me">Contact me</h1>
+        <i class="fa-solid fa-angle-up fa-2xl"></i>
+        <h1 class="contact-me">To Top</h1>
       </button>
     </a>
     <!--Title section with a scroll effect that changes between the three word listed below with the "Hi! I'm" being unchanged-->

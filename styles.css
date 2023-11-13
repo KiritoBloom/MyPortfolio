@@ -1,6 +1,6 @@
 :root {
   --bg1: #09334f;
-  --bg2: linear-gradient(to right, purple, crimson);
+  --bg2: linear-gradient(to right, black, white);
   --wrm: #d1faff;
   --deg: -12deg;
   --sz: 5vmin;
@@ -110,7 +110,7 @@ body::-webkit-scrollbar {
   position: fixed;
 }
 .g {
-  left: 58%;
+  left: 59%;
   position: fixed;
 }
 
@@ -132,7 +132,7 @@ body::-webkit-scrollbar {
 }
 
 .navbar-container {
-  position: fixed;
+  position: absolute;
   top: 7%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -176,31 +176,30 @@ body::-webkit-scrollbar {
 }
 
 .home-button {
-  background: none;
   border: none;
-  padding: 13px 13px;
-  border-radius: 25%;
+  padding: 20px 15px 20px 15px;
+  border-radius: 50%;
   position: fixed;
-  top: 88%;
-  left: 94.5%;
+  top: 90%;
+  left: 95%;
   cursor: pointer;
   z-index: 100;
-  background: rgb(231, 229, 229);
+  background: rgb(220, 218, 218);
   transition: 0.5s;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.email-button {
-  width: 40px;
-  height: 40px;
+.home-button2 {
+  width: 20px;
+  height: 20px;
 }
 
 .contact-me {
   position: absolute;
   font-family: "Poppins", "Gill Sans";
-  top: 60%;
-  left: 10%;
-  font-size: 9px;
+  top: 52%;
+  left: 21%;
+  font-size: 0.6rem;
   font-weight: bold;
 }
 
@@ -384,8 +383,8 @@ body::-webkit-scrollbar {
 
 .html-in {
   position: relative;
-  top: 9%;
-  left: 12%;
+  top: 5%;
+  left: 15%;
   transform: translateY(-50%);
 }
 
@@ -400,7 +399,7 @@ body::-webkit-scrollbar {
 
 .css-in {
   position: relative;
-  top: 9%;
+  top: 5%;
   left: 15%;
   transform: translateY(-50%);
 }
@@ -416,7 +415,7 @@ body::-webkit-scrollbar {
 
 .js-in {
   position: relative;
-  top: 9%;
+  top: 5%;
   left: 3%;
   transform: translateY(-50%);
 }
@@ -432,8 +431,8 @@ body::-webkit-scrollbar {
 
 .react-in {
   position: relative;
-  top: 9%;
-  left: 12%;
+  top: 5%;
+  left: 10%;
   transform: translateY(-50%);
 }
 
@@ -448,7 +447,7 @@ body::-webkit-scrollbar {
 
 .bootstrap-in {
   position: relative;
-  top: 9%;
+  top: 5%;
   left: 8%;
   transform: translateY(-50%);
 }
@@ -464,8 +463,8 @@ body::-webkit-scrollbar {
 
 .firebase-in {
   position: relative;
-  top: 9%;
-  left: 10%;
+  top: 5%;
+  left: 8%;
   transform: translateY(-50%);
 }
 
@@ -505,7 +504,7 @@ body::-webkit-scrollbar {
   width: 3rem;
   height: 2rem;
   border-radius: 20px 20px 20px 20px;
-  margin-top: -4.8%;
+  margin-top: -5%;
   margin-left: 12%;
 }
 
@@ -626,7 +625,7 @@ body::-webkit-scrollbar {
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 7%;
+  top: 6.5%;
   left: 75%;
   border-radius: calc(var(--sz) / 10);
   animation: spin var(--spd) linear 0s infinite,
@@ -707,7 +706,7 @@ body::-webkit-scrollbar {
   justify-content: center;
   align-items: center;
   font-family: "Poppins", "Gill Sans";
-  background-image: linear-gradient(to right, purple, crimson);
+  background-image: linear-gradient(to right, black, rgb(0, 0, 0));
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -716,34 +715,45 @@ body::-webkit-scrollbar {
 }
 
 .name {
+  background: rgb(234, 234, 234);
   position: absolute;
   top: 20%;
   left: 5%;
   width: 350px;
   height: 25px;
   outline: none;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 5px 5px 5px 5px;
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 5px;
 }
 
 .email {
+  background: rgb(234, 234, 234);
   position: absolute;
   top: 33%;
   left: 5%;
   width: 350px;
   height: 25px;
   outline: none;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 5px 5px 5px 5px;
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 5px;
 }
 
 .message {
+  background: rgb(234, 234, 234);
   position: absolute;
   top: 50%;
   left: 5%;
   width: 350px;
   height: 100px;
   outline: none;
-  border-radius: 10px 10px 10px 10px;
-  border: 2px solid black;
+  border-radius: 5px 5px 5px 5px;
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 5px;
 }
 
 .submitBtn {
@@ -759,11 +769,14 @@ body::-webkit-scrollbar {
   font-weight: 600;
   cursor: pointer;
   color: white;
-  background: linear-gradient(to left, purple, crimson);
+  /*background: linear-gradient(to left, purple, crimson);*/
+  background: rgb(63, 62, 62);
   letter-spacing: 0.7px;
   position: absolute;
-  top: 80%;
-  left: 33%;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
   box-shadow: 3px 3px 3px rgba(36, 2, 48, 0.6);
 }
 
@@ -860,8 +873,8 @@ body::-webkit-scrollbar {
   padding: 0;
 }
 
-/* Styles for screens less than 768px wide */
-@media screen and (max-width: 767px) {
+/* Styles for screens with the width of 360px */
+@media screen and (max-width: 360px) {
   body {
     background-image: url(../Images/mobile-back.svg);
     background-position: 0 -1200px;
@@ -911,13 +924,17 @@ body::-webkit-scrollbar {
     width: 500px;
   }
 
+  .home-button {
+    left: 83%;
+  }
+
   .contact-me {
     font-size: 0.5rem;
-    left: 13%;
+    left: 25%;
   }
 
   .navbar-container {
-    position: fixed;
+    position: absolute;
     top: 6%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -927,7 +944,324 @@ body::-webkit-scrollbar {
   .navbar {
     width: 93vw;
     height: 3rem;
-    border: 2px solid black;
+  }
+
+  .navbar a {
+    margin-right: 3%;
+    font-size: 1.1rem;
+  }
+
+  .nav-image {
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    margin-right: 78%;
+  }
+
+  .about-container {
+    margin: 0 auto;
+  }
+
+  .about-header {
+    width: 21rem;
+    margin-left: -0.45%;
+    margin-top: -11.3%;
+  }
+
+  .about-box {
+    width: 21rem;
+    height: 50rem;
+    margin-top: 100%;
+  }
+
+  .about-tab {
+    margin-top: 2%;
+  }
+
+  .about-dots {
+    margin-top: -6.5%;
+  }
+
+  .skills {
+    margin-top: -8%;
+  }
+
+  .html-container {
+    position: absolute;
+    left: 1%;
+    top: 82%;
+  }
+
+  .css-container {
+    position: absolute;
+    top: 83.3%;
+    left: 14%;
+  }
+
+  .js-container {
+    position: absolute;
+    top: 83.3%;
+    left: 24.1%;
+  }
+
+  .react-container {
+    position: absolute;
+    top: 94.5%;
+    left: -23.7%;
+  }
+
+  .bootstrap-container {
+    position: absolute;
+    top: 89%;
+    left: -52%;
+  }
+
+  .firebase-container {
+    position: absolute;
+    top: 89%;
+    left: -31.7%;
+  }
+
+  .git-container {
+    position: absolute;
+    top: 94.5%;
+    left: -87%;
+  }
+
+  .redux-container {
+    position: absolute;
+    top: 86.5%;
+    left: 74.7%;
+  }
+
+  .c-container {
+    position: absolute;
+    top: 83.3%;
+    left: 73.2%;
+  }
+
+  .project-header {
+    margin-top: 100%;
+  }
+
+  .project-container {
+    margin-top: 10%;
+  }
+
+  .project-box {
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+  }
+
+  .project-img {
+    width: 350px;
+    height: 350px;
+    margin-left: 6%;
+  }
+
+  .project-title {
+    margin-top: 5%;
+    margin-left: 31%;
+  }
+
+  .title {
+    margin: 0 auto;
+    margin-top: 60%;
+    /*position: absolute;
+    left: 2%;
+    top: 30%;*/
+    font-size: 32px;
+  }
+
+  .slider-title {
+    font-size: 2.3rem;
+  }
+
+  @keyframes slice {
+    0%,
+    27% {
+      transform: translateY(1%);
+    }
+
+    33%,
+    60% {
+      transform: translateY(-32%);
+    }
+
+    66%,
+    93% {
+      transform: translateY(-68%);
+    }
+  }
+
+  .contact-box {
+    margin: 0 auto;
+    margin-top: 70%;
+    width: 383.5px;
+    height: 1000px;
+  }
+
+  .cnt-desc {
+    position: absolute;
+    top: 7%;
+  }
+
+  .cnt-about {
+    position: absolute;
+    top: 12%;
+    left: 3%;
+    font-size: 13px;
+  }
+
+  .email-name {
+    position: absolute;
+    font-size: 17px;
+    top: 30%;
+  }
+
+  .github-icon {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+  }
+
+  .linkedin-icon {
+    position: absolute;
+    top: 40%;
+    left: 65%;
+  }
+
+  .contact-container {
+    position: absolute;
+    top: 55%;
+    left: 1.9%;
+    width: 370px;
+  }
+
+  .email {
+    width: 330px;
+  }
+
+  .name {
+    width: 330px;
+  }
+
+  .message {
+    width: 330px;
+  }
+
+  .contact-title {
+    position: absolute;
+    left: 15%;
+  }
+
+  .rotating-shape {
+    position: absolute;
+    left: 75%;
+    top: 6%;
+    width: 35px;
+    height: 35px;
+  }
+
+  .four-pointed-star {
+    top: 34%;
+    left: 70%;
+  }
+
+  .four-pointed-star:before {
+    width: 20px;
+    height: 20px;
+  }
+
+  .four-pointed-star:after {
+    width: 20px;
+    height: 20px;
+  }
+
+  .footer-bar {
+    margin-top: 300%;
+    margin-bottom: 0;
+  }
+
+  .copyright {
+    margin-left: -10%;
+    font-size: 1.1rem;
+    margin-top: 300%;
+  }
+}
+
+/* Styles for screens less than 768px wide */
+@media screen and (max-width: 767px) and (min-width: 361px) {
+  body {
+    background-image: url(../Images/mobile-back.svg);
+    background-position: 0 -1200px;
+  }
+
+  .loader {
+    top: 40%;
+  }
+
+  .l {
+    left: 6%;
+  }
+
+  .o {
+    left: 15%;
+  }
+
+  .a {
+    left: 30%;
+  }
+  .d {
+    left: 45%;
+  }
+  .i {
+    left: 60%;
+  }
+  .n {
+    left: 68%;
+  }
+  .g {
+    left: 84%;
+  }
+
+  .background {
+    margin-top: 135%;
+  }
+
+  .back2-continue {
+    display: none;
+  }
+
+  .mobile-back2 {
+    display: block;
+    position: absolute;
+    top: 195%;
+    left: -4.6%;
+    width: 500px;
+  }
+
+  .home-button {
+    left: 83%;
+  }
+
+  .contact-me {
+    font-size: 0.5rem;
+    left: 25%;
+  }
+
+  .navbar-container {
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+  }
+
+  .navbar {
+    width: 93vw;
+    height: 3rem;
   }
 
   .navbar a {
@@ -1019,67 +1353,6 @@ body::-webkit-scrollbar {
     left: 5%;
   }
 
-  /*.html-title {
-    width: 4rem;
-  }
-
-  .css-title {
-    width: 3rem;
-    margin-left: 8%;
-  }
-
-  .js-title {
-    width: 6rem;
-    margin-left: 2%;
-    margin-top: 3.5%;
-  }
-
-  .react-title {
-    width: 5rem;
-    margin-left: 15%;
-    margin-top: 1%;
-  }
-
-  .git-title {
-    width: 3rem;
-  }
-
-  .firebase {
-    position: absolute;
-    margin-top: 10%;
-    left: 1%;
-  }
-
-  .firebase-title {
-    font-size: 1.3rem;
-    margin-top: 1%;
-    margin-left: 4%;
-  }
-
-  .boot {
-    position: absolute;
-    margin-top: 10%;
-    left: 29%;
-  }
-
-  .boot-title {
-    font-size: 1.3rem;
-    margin-top: 1%;
-    margin-left: 8%;
-  }
-
-  .redux {
-    position: absolute;
-    margin-top: 10%;
-    left: 62.5%;
-  }
-
-  .redux-title {
-    font-size: 1.3rem;
-    margin-top: 1%;
-    margin-left: 10%;
-  }*/
-
   .project-header {
     margin-top: 100%;
   }
@@ -1103,10 +1376,6 @@ body::-webkit-scrollbar {
   .project-title {
     margin-top: 5%;
     margin-left: 31%;
-  }
-
-  .home-button {
-    left: 80%;
   }
 
   .title {
@@ -1273,9 +1542,13 @@ body::-webkit-scrollbar {
     display: none;
   }
 
+  .home-button {
+    left: 92%;
+  }
+
   .navbar-container {
-    position: fixed;
-    top: 7%;
+    position: absolute;
+    top: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 10px;
@@ -1291,11 +1564,6 @@ body::-webkit-scrollbar {
 
   .navbar a {
     font-size: 1.4rem;
-  }
-
-  .home-button {
-    left: 89%;
-    top: 90%;
   }
 
   .project-header {
