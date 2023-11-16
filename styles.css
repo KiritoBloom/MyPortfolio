@@ -19,7 +19,8 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: url(../Images/blob-scene-haikei-2.svg) no-repeat;
+  /*background: url(../Images/blob-scene-haikei-2.svg) no-repeat;*/
+  background-repeat: no-repeat;
   background-size: 100% 250%;
   background-position: 0 -3100px;
 }
@@ -28,19 +29,42 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-/*.blob1 {
+.design1 {
+  z-index: -1;
   position: absolute;
   right: 0%;
-  top: -30%;
+  top: -40%;
 }
-.blob1 {
-  width: 1000px;
-  height: 1200px;
+
+.design2 {
+  z-index: -1;
   position: absolute;
-  top: -37%;
+  left: -45%;
+  top: 20%;
+}
+
+.design3 {
+  z-index: -1;
+  position: absolute;
   right: 0%;
-  z-index: 0;
-}*/
+  top: 145%;
+  margin: 0;
+  padding: 0;
+}
+
+.design4 {
+  z-index: -1;
+  position: absolute;
+  top: 180%;
+  left: -75%;
+}
+
+.design5 {
+  z-index: -1;
+  position: absolute;
+  top: 280%;
+  right: 0%;
+}
 
 .show {
   opacity: 1;
@@ -228,6 +252,19 @@ body::-webkit-scrollbar {
 
 .home-button svg {
   color: #fff;
+}
+
+.landing-container {
+  font-family: "Poppins";
+  margin-top: 20%;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auto-type {
+  color: rgb(9, 68, 68);
 }
 
 .title {
@@ -425,7 +462,7 @@ body::-webkit-scrollbar {
 
 .js-container {
   border: 2px solid black;
-  width: 8rem;
+  width: 9rem;
   height: 2rem;
   border-radius: 20px 20px 20px 20px;
   margin-top: -4.9%;
@@ -435,7 +472,7 @@ body::-webkit-scrollbar {
 .js-in {
   position: relative;
   top: 5%;
-  left: 3%;
+  left: 9%;
   transform: translateY(-50%);
 }
 
@@ -445,7 +482,7 @@ body::-webkit-scrollbar {
   height: 2rem;
   border-radius: 20px 20px 20px 20px;
   margin-top: -4.9%;
-  margin-left: 41%;
+  margin-left: 43.3%;
 }
 
 .react-in {
@@ -461,7 +498,7 @@ body::-webkit-scrollbar {
   height: 2rem;
   border-radius: 20px 20px 20px 20px;
   margin-top: -4.9%;
-  margin-left: 53%;
+  margin-left: 56%;
 }
 
 .bootstrap-in {
@@ -477,7 +514,7 @@ body::-webkit-scrollbar {
   height: 2rem;
   border-radius: 20px 20px 20px 20px;
   margin-top: -4.9%;
-  margin-left: 72%;
+  margin-left: 75%;
 }
 
 .firebase-in {
@@ -493,7 +530,7 @@ body::-webkit-scrollbar {
   height: 2rem;
   border-radius: 20px 20px 20px 20px;
   margin-top: -4.9%;
-  margin-left: 89%;
+  margin-left: 92%;
 }
 
 .git-in {
@@ -552,6 +589,7 @@ body::-webkit-scrollbar {
   width: 800px;
   height: 400px;
   margin: 0 auto;
+  background-color: white;
 }
 
 .project-img {
@@ -707,6 +745,7 @@ body::-webkit-scrollbar {
   top: 20%;
   left: 3%;
   font-size: 14px;
+  width: 25rem;
 }
 
 .contact-container {
@@ -729,8 +768,6 @@ body::-webkit-scrollbar {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  position: absolute;
-  left: 20%;
 }
 
 .name {
@@ -877,26 +914,54 @@ body::-webkit-scrollbar {
   width: 100%;
   height: 60px;
   background: black /*linear-gradient(to right, purple, crimson)*/;
-  position: absolute;
-  top: 420%;
+  /*position: absolute;
+  top: 420%;*/
+  margin-top: 20%;
 }
 
 .copyright {
-  position: absolute;
+  position: relative;
+  top: 25%;
+  /*left: 20%;*/
+  margin-left: 30%;
   font-size: 20px;
-  top: 422%;
-  left: 20%;
   color: white;
   font-family: "Poppins", "Gill Sans";
-  margin: 0;
-  padding: 0;
 }
 
 /* Styles for screens with the width of 360px */
 @media screen and (max-width: 360px) {
   body {
-    background-image: url(../Images/mobile-back.svg);
-    background-position: 0 -4050px;
+    /*background-image: url(../Images/mobile-back.svg);*/
+    background-position: 0 -5500px;
+  }
+
+  .landing-container {
+    margin-top: 40%;
+    margin-left: -50%;
+    font-size: 1.5rem;
+  }
+
+  .typed-cursor {
+    display: none;
+  }
+
+  .auto-type {
+    position: absolute;
+    top: 32%;
+    left: 5%;
+  }
+
+  .design1 {
+    top: -50%;
+  }
+
+  .design2 {
+    left: -180%;
+  }
+
+  .design4 {
+    left: 180%;
   }
 
   .blob1 {
@@ -997,6 +1062,10 @@ body::-webkit-scrollbar {
     margin-top: 100%;
   }
 
+  .about-desc {
+    margin-top: -7%;
+  }
+
   .about-tab {
     margin-top: 2%;
   }
@@ -1030,37 +1099,37 @@ body::-webkit-scrollbar {
   .react-container {
     position: absolute;
     top: 94.5%;
-    left: -23.7%;
+    left: -25.8%;
   }
 
   .bootstrap-container {
     position: absolute;
     top: 89%;
-    left: -52%;
+    left: -55%;
   }
 
   .firebase-container {
     position: absolute;
     top: 89%;
-    left: -31.7%;
+    left: -34.6%;
   }
 
   .git-container {
     position: absolute;
     top: 94.5%;
-    left: -87%;
+    left: -90%;
   }
 
   .redux-container {
     position: absolute;
     top: 86.5%;
-    left: 74.7%;
+    left: 75%;
   }
 
   .c-container {
     position: absolute;
-    top: 83.3%;
-    left: 73.2%;
+    top: 94.6%;
+    left: 30.8%;
   }
 
   .project-header {
@@ -1072,20 +1141,24 @@ body::-webkit-scrollbar {
   }
 
   .project-box {
-    width: 400px;
+    width: 21rem;
     height: 600px;
     margin: 0 auto;
   }
 
   .project-img {
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     margin-left: 6%;
   }
-
   .project-title {
     margin-top: 5%;
     margin-left: 31%;
+  }
+
+  .project-desc {
+    font-size: 1rem;
+    width: 20rem;
   }
 
   .title {
@@ -1121,26 +1194,32 @@ body::-webkit-scrollbar {
   .contact-box {
     margin: 0 auto;
     margin-top: 70%;
-    width: 383.5px;
-    height: 1000px;
+    width: 21rem;
+    height: 60rem;
   }
 
   .cnt-desc {
     position: absolute;
-    top: 7%;
+    top: 6%;
+    font-size: 1.5rem;
   }
 
   .cnt-about {
     position: absolute;
     top: 12%;
     left: 3%;
-    font-size: 13px;
+    font-size: 0.9rem;
+    width: 20rem;
   }
 
   .email-name {
     position: absolute;
-    font-size: 17px;
-    top: 30%;
+    font-size: 0.9rem;
+    top: 33%;
+  }
+
+  .email-name:hover {
+    transform: scale(1.05);
   }
 
   .github-icon {
@@ -1157,72 +1236,80 @@ body::-webkit-scrollbar {
 
   .contact-container {
     position: absolute;
-    top: 55%;
-    left: 1.9%;
-    width: 370px;
+    top: 50%;
+    left: 2.3%;
+    width: 20rem;
   }
 
   .email {
-    width: 330px;
+    width: 17rem;
   }
 
   .name {
-    width: 330px;
+    width: 17rem;
   }
 
   .message {
-    width: 330px;
+    width: 17rem;
   }
 
   .contact-title {
-    position: absolute;
-    left: 15%;
-  }
-
-  .rotating-shape {
-    position: absolute;
-    left: 75%;
-    top: 6%;
-    width: 35px;
-    height: 35px;
-  }
-
-  .four-pointed-star {
-    top: 34%;
-    left: 70%;
-  }
-
-  .four-pointed-star:before {
-    width: 20px;
-    height: 20px;
-  }
-
-  .four-pointed-star:after {
-    width: 20px;
-    height: 20px;
+    margin-bottom: 20%;
+    margin: 0 auto;
   }
 
   .footer-bar {
-    margin-top: 300%;
+    margin-top: 100%;
     margin-bottom: 0;
   }
 
   .copyright {
-    margin-left: -10%;
-    font-size: 1.1rem;
-    margin-top: 300%;
+    font-size: 0.9rem;
+    position: relative;
+    top: 25%;
+    /*left: 20%;*/
+    margin-left: 10%;
   }
 }
 
 /* Styles for screens less than 768px wide */
 @media screen and (max-width: 767px) and (min-width: 361px) {
   body {
-    background-image: url(../Images/mobile-back.svg);
-    background-position: 0 -4100px;
+    /*background-image: url(../Images/mobile-back.svg);*/
+    background-position: 0 -5650px;
   }
 
-  .blob1 {
+  .design1 {
+    top: -50%;
+  }
+
+  .design2 {
+    left: -150%;
+  }
+
+  .design4 {
+    top: 220%;
+    left: -285%;
+  }
+
+  .design5 {
+    top: 330%;
+  }
+
+  .landing-container {
+    margin-top: 40%;
+    margin-left: -56%;
+    font-size: 1.5rem;
+  }
+
+  .typed-cursor {
     display: none;
+  }
+
+  .auto-type {
+    position: absolute;
+    top: 35%;
+    left: 5%;
   }
 
   .loader {
@@ -1255,10 +1342,6 @@ body::-webkit-scrollbar {
 
   .background {
     margin-top: 135%;
-  }
-
-  .back2-continue {
-    display: none;
   }
 
   .mobile-back2 {
@@ -1329,55 +1412,55 @@ body::-webkit-scrollbar {
 
   .html-container {
     position: absolute;
-    top: 82%;
+    top: 80%;
   }
 
   .css-container {
     position: absolute;
-    top: 83.3%;
+    top: 81.4%;
     left: 12%;
   }
 
   .js-container {
     position: absolute;
-    top: 83.3%;
+    top: 81.4%;
     left: 21%;
   }
 
   .react-container {
     position: absolute;
-    top: 83.3%;
-    left: 37%;
+    top: 93%;
+    left: -41%;
   }
 
   .bootstrap-container {
     position: absolute;
-    top: 89%;
-    left: -52%;
+    top: 87%;
+    left: -54%;
   }
 
   .firebase-container {
     position: absolute;
-    top: 89%;
-    left: -35.5%;
+    top: 87%;
+    left: -37%;
   }
 
   .git-container {
     position: absolute;
-    top: 94.5%;
-    left: -87%;
+    top: 81.4%;
+    left: -9%;
   }
 
   .redux-container {
     position: absolute;
-    top: 86.3%;
-    left: 68%;
+    top: 84.2%;
+    left: 70%;
   }
 
   .c-container {
     position: absolute;
-    top: 94.5%;
-    left: 5%;
+    top: 93%;
+    left: 14%;
   }
 
   .project-header {
@@ -1452,6 +1535,7 @@ body::-webkit-scrollbar {
     top: 12%;
     left: 3%;
     font-size: 13px;
+    width: 22rem;
   }
 
   .email-name {
@@ -1493,41 +1577,17 @@ body::-webkit-scrollbar {
 
   .contact-title {
     position: absolute;
-    left: 15%;
-  }
-
-  .rotating-shape {
-    position: absolute;
-    left: 75%;
-    top: 6%;
-    width: 35px;
-    height: 35px;
-  }
-
-  .four-pointed-star {
-    top: 34%;
-    left: 70%;
-  }
-
-  .four-pointed-star:before {
-    width: 20px;
-    height: 20px;
-  }
-
-  .four-pointed-star:after {
-    width: 20px;
-    height: 20px;
+    left: 23%;
   }
 
   .footer-bar {
-    margin-top: 300%;
+    margin-top: 60%;
     margin-bottom: 0;
   }
 
   .copyright {
-    margin-left: -10%;
-    font-size: 1.1rem;
-    margin-top: 300%;
+    font-size: 1rem;
+    margin-left: 10%;
   }
 }
 /* Styles for screens between 768px and 992px wide */
@@ -1535,6 +1595,18 @@ body::-webkit-scrollbar {
   body {
     background-position: -150px -700px;
     background-size: 1000px 2000px;
+  }
+
+  .landing-container {
+    font-size: 1.75rem;
+  }
+
+  .design4 {
+    display: none;
+  }
+
+  .design5 {
+    display: none;
   }
 
   .loader {
@@ -1614,7 +1686,7 @@ body::-webkit-scrollbar {
   }
 
   .footer-bar {
-    margin-top: -180%;
+    margin-top: 210%;
   }
 
   .copyright {
@@ -1639,11 +1711,15 @@ body::-webkit-scrollbar {
   }
 
   .contact-title {
-    margin-left: -12%;
+    margin-left: 0%;
   }
 
   .contact-box {
     width: 750px;
+  }
+
+  .cnt-about {
+    width: 23rem;
   }
 }
 
@@ -1727,5 +1803,15 @@ body::-webkit-scrollbar {
 
   .home-button {
     left: 89%;
+  }
+
+  .footer-bar {
+    margin-top: 1200%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer-bar {
+    margin-top: 40%;
   }
 }

@@ -30,39 +30,13 @@
   </head>
   <body>
     <!--This section contains divs containing blobs which are used to design the website-->
-    <!--<svg
-      id="visual"
-      viewBox="0 0 900 600"
-      width="900"
-      height="600"
-      class="blob1"
-    >
-      <rect x="0" y="0" width="900" height="600" fill="#ffffff"></rect>
-      <defs>
-        <linearGradient id="grad2_0" x1="0%" y1="0%" x2="66.7%" y2="100%">
-          <stop offset="20%" stop-color="#cccccc" stop-opacity="1"></stop>
-          <stop offset="80%" stop-color="#cccccc" stop-opacity="1"></stop>
-        </linearGradient>
-      </defs>
-      <defs>
-        <linearGradient id="grad2_1" x1="0%" y1="0%" x2="66.7%" y2="100%">
-          <stop offset="20%" stop-color="#ffffff" stop-opacity="1"></stop>
-          <stop offset="80%" stop-color="#cccccc" stop-opacity="1"></stop>
-        </linearGradient>
-      </defs>
-      <g transform="translate(900, 0)">
-        <path
-          d="M0 243.4C-31.8 239.9 -63.6 236.4 -93.1 224.8C-122.6 213.3 -149.8 193.7 -169.7 169.7C-189.6 145.7 -202.3 117.4 -213.4 88.4C-224.5 59.4 -233.9 29.7 -243.4 0L0 0Z"
-          fill="#e5e5e5"
-          style="transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1) 0s"
-        ></path>
-        <path
-          d="M0 121.7C-15.9 119.9 -31.8 118.2 -46.6 112.4C-61.3 106.6 -74.9 96.8 -84.9 84.9C-94.8 72.9 -101.2 58.7 -106.7 44.2C-112.2 29.7 -117 14.8 -121.7 0L0 0Z"
-          fill="#cccccc"
-          style="transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1) 0s"
-        ></path>
-      </g>
-    </svg>-->
+    <div class="background-design">
+      <img src="../Images/design1.svg" class="design1" />
+      <img src="../Images/design2.svg" class="design2" />
+      <img src="../Images/design3.svg" class="design3" />
+      <img src="../Images/design4.svg" class="design4" />
+      <img src="../Images/design5.svg" class="design5" />
+    </div>
 
     <!--This section contains a preloader and a nav allowing easy access to any part of the portfolio-->
     <div id="preloader">
@@ -120,7 +94,7 @@
       </button>
     </a>
     <!--Title section with a scroll effect that changes between the three word listed below with the "Hi! I'm" being unchanged-->
-    <h1 class="title" id="text-container">
+    <!--<h1 class="title" id="text-container">
       <span class="slider-title">Hi! I'm</span>
       <div class="slider">
         <ul class="words">
@@ -129,14 +103,16 @@
           <li class="word">a Software Engineer.</li>
         </ul>
       </div>
-    </h1>
+    </h1>-->
+    <div class="landing-container">
+      <h1>Hi! I'm <span class="auto-type"></span></h1>
+    </div>
 
     <!--About me section with skills listed on the bottom of the container-->
     <div class="about-conatiner">
       <div class="about-box hidden">
-        <div class="about-header">
+        <div class="about-header" id="abouttext-container">
           <div class="about-tab"><h1 class="abouttab-title">About</h1></div>
-          <div id="abouttext-container"></div>
           <div class="about-dots">
             <div class="red-dot"></div>
             <div class="yellow-dot"></div>
@@ -193,19 +169,16 @@
       </div>
     </div>
     <!--Contact form using form submit to get emails directed to me-->
-    <div id="contact"></div>
     <div class="contact-box hidden">
-      <h1 class="contact-intro">
+      <h1 class="contact-intro" id="contact">
         Lets Get In <span class="cnt-touch">Touch!</span>
       </h1>
       <h2 class="cnt-desc">Here's abit about me:</h2>
       <p class="cnt-about">
-        Greetings! I'm Moe, a dedicated Frontend Developer<br />
-        with an unquenchable thirst for all things tech.With a<br />
-        strong foundation in web development and a passion<br />
-        for creating seamless user experiences, I've made it<br />
-        my mission to bridge the gap between design and<br />
-        functionality.
+        Greetings! I'm Moe, a dedicated Frontend Developer with an unquenchable
+        thirst for all things tech.With a strong foundation in web development
+        and a passion for creating seamless user experiences, I've made it my
+        mission to bridge the gap between design and functionality.
       </p>
       <p class="email-name">
         <i class="fa-solid fa-envelope"></i>
@@ -240,7 +213,7 @@
           <input type="hidden" name="_captcha" value="false" />
 
           <h1 class="contact-title">CONTACT ME</h1>
-          <div class="rotating-shape"></div>
+          <!--<div class="rotating-shape"></div>-->
           <input
             type="text"
             id="name"
@@ -284,9 +257,19 @@
     </script>
     <!--Footer containing copyright-->
     <footer>
-      <div class="footer-bar"></div>
-      <h1 class="copyright">Copyright © 2023. All rights reserved</h1>
+      <div class="footer-bar">
+        <h1 class="copyright">Copyright © 2023. All rights reserved</h1>
+      </div>
     </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed(".auto-type", {
+        strings: ["Moe", "a frontend developer", "a software engineer"],
+        typeSpeed: 120,
+        backSpeed: 120,
+        loop: true,
+      });
+    </script>
   </body>
 </html>
 <!--THIS CODE HAS BEEN DEVELOPED BY Mohamed, ALL CODE RIGHTS BELONG TO Mohamed-->
