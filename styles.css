@@ -1631,7 +1631,7 @@ body::-webkit-scrollbar {
 }
 
 /* Styles for screens less than 768px wide */
-@media screen and (max-width: 767px) and (min-width: 413px) {
+@media screen and (max-width: 767px) and (min-width: 412px) {
   body {
     /*background-image: url(../Images/mobile-back.svg);*/
     background-position: 0 -5650px;
