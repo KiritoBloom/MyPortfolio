@@ -7,6 +7,10 @@
   --spd: 2.05s;
 }
 
+* {
+  /*outline: 2px solid red;*/
+}
+
 html,
 body {
   zoom: 100%;
@@ -262,12 +266,11 @@ body::-webkit-scrollbar {
   align-items: center;
   justify-content: center;
 }
-
 .auto-type {
   color: rgb(9, 68, 68);
 }
 
-.title {
+/*.title {
   flex: 1 1 100%;
   width: 100%;
   text-align: center;
@@ -277,7 +280,7 @@ body::-webkit-scrollbar {
   /*text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
   position: absolute;
   top: 30%;
-  left: -1%;*/
+  left: -1%;
   margin: 0 auto;
   margin-top: 20%;
   font-family: "Poppins", "Gill Sans";
@@ -330,14 +333,14 @@ body::-webkit-scrollbar {
   93% {
     transform: translateY(-66%);
   }
-}
+}*/
 
 .about-box {
   margin: 0 auto;
   margin-top: 30%;
   border: 2px solid transparent;
   width: 45rem;
-  height: 30rem;
+  height: 31rem;
   border-radius: 0 0 0.5rem 0.5rem;
   background: rgb(246, 245, 245);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -929,17 +932,25 @@ body::-webkit-scrollbar {
   font-family: "Poppins", "Gill Sans";
 }
 
-/* Styles for screens with the width of 360px */
-@media screen and (max-width: 360px) {
+/* Styles for screens with the width of 375px */
+@media screen and (max-width: 376px) {
   body {
     /*background-image: url(../Images/mobile-back.svg);*/
     background-position: 0 -5500px;
   }
 
   .landing-container {
-    margin-top: 40%;
-    margin-left: -50%;
+    /*margin-top: 9rem;
+    margin-left: -50%;*/
     font-size: 1.5rem;
+    /*display: grid;
+    justify-content: start;
+    align-items: start;*/
+    position: absolute;
+    top: 17%;
+    left: 5%;
+    display: inline-block;
+    justify-content: start;
   }
 
   .typed-cursor {
@@ -947,9 +958,15 @@ body::-webkit-scrollbar {
   }
 
   .auto-type {
-    position: absolute;
-    top: 32%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    /*position: absolute;
+    top: 15rem;
     left: 5%;
+    display: grid;
+    justify-content: start;
+    align-items: start;*/
   }
 
   .design1 {
@@ -961,7 +978,7 @@ body::-webkit-scrollbar {
   }
 
   .design4 {
-    left: 180%;
+    display: none;
   }
 
   .blob1 {
@@ -1059,7 +1076,7 @@ body::-webkit-scrollbar {
   .about-box {
     width: 21rem;
     height: 50rem;
-    margin-top: 100%;
+    margin-top: 210%;
   }
 
   .about-desc {
@@ -1258,9 +1275,350 @@ body::-webkit-scrollbar {
     margin: 0 auto;
   }
 
-  .footer-bar {
+  .copyright {
+    font-size: 0.9rem;
+    position: relative;
+    top: 25%;
+    /*left: 20%;*/
+    margin-left: 10%;
+  }
+}
+
+@media screen and (min-width: 377px) and (max-width: 412px) {
+  .landing-container {
+    /*margin-top: 9rem;
+    margin-left: -50%;*/
+    font-size: 1.5rem;
+    /*display: grid;
+    justify-content: start;
+    align-items: start;*/
+    position: absolute;
+    top: 17%;
+    left: 5%;
+    display: inline-block;
+    justify-content: start;
+  }
+
+  .typed-cursor {
+    display: none;
+  }
+
+  .auto-type {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    /*position: absolute;
+    top: 15rem;
+    left: 5%;
+    display: grid;
+    justify-content: start;
+    align-items: start;*/
+  }
+
+  .design1 {
+    top: -50%;
+  }
+
+  .design2 {
+    left: -180%;
+  }
+
+  .design4 {
+    display: none;
+  }
+
+  .blob1 {
+    display: none;
+  }
+
+  .loader {
+    top: 40%;
+  }
+
+  .l {
+    left: 6%;
+  }
+
+  .o {
+    left: 15%;
+  }
+
+  .a {
+    left: 30%;
+  }
+  .d {
+    left: 45%;
+  }
+  .i {
+    left: 60%;
+  }
+  .n {
+    left: 68%;
+  }
+  .g {
+    left: 84%;
+  }
+
+  .background {
+    margin-top: 135%;
+  }
+
+  .back2-continue {
+    display: none;
+  }
+
+  .mobile-back2 {
+    display: block;
+    position: absolute;
+    top: 195%;
+    left: -4.6%;
+    width: 500px;
+  }
+
+  .home-button {
+    left: 83%;
+  }
+
+  .contact-me {
+    font-size: 0.5rem;
+    left: 25%;
+  }
+
+  .navbar-container {
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+  }
+
+  .navbar {
+    width: 93vw;
+    height: 3rem;
+  }
+
+  .navbar a {
+    margin-right: 3%;
+    font-size: 1.1rem;
+  }
+
+  .nav-image {
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    margin-right: 78%;
+  }
+
+  .about-container {
+    margin: 0 auto;
+  }
+
+  .about-header {
+    width: 24rem;
+    margin-left: -0.45%;
+    margin-top: -11.3%;
+  }
+
+  .about-box {
+    width: 24rem;
+    height: 44rem;
+    margin-top: 210%;
+  }
+
+  .about-desc {
+    margin-top: -7%;
+  }
+
+  .about-tab {
+    margin-top: 2%;
+  }
+
+  .about-dots {
+    margin-top: -6.5%;
+  }
+
+  .skills {
+    margin-top: -2%;
+  }
+
+  .html-container {
+    position: absolute;
+    left: 1%;
+    top: 82%;
+  }
+
+  .css-container {
+    position: absolute;
+    top: 83.6%;
+    left: 11%;
+  }
+
+  .js-container {
+    position: absolute;
+    top: 83.6%;
+    left: 18.4%;
+  }
+
+  .react-container {
+    position: absolute;
+    top: 83.6%;
+    left: 35%;
+  }
+
+  .bootstrap-container {
+    position: absolute;
+    top: 89%;
+    left: -55%;
+  }
+
+  .firebase-container {
+    position: absolute;
+    top: 89%;
+    left: -40%;
+  }
+
+  .git-container {
+    position: absolute;
+    top: 94.3%;
+    left: -91%;
+  }
+
+  .redux-container {
+    position: absolute;
+    top: 85.8%;
+    left: 65%;
+  }
+
+  .c-container {
+    position: absolute;
+    top: 89.2%;
+    left: 74.2%;
+  }
+
+  .project-header {
     margin-top: 100%;
-    margin-bottom: 0;
+  }
+
+  .project-container {
+    margin-top: 10%;
+  }
+
+  .project-box {
+    width: 24rem;
+    height: 600px;
+    margin: 0 auto;
+  }
+
+  .project-img {
+    width: 300px;
+    height: 300px;
+    margin-left: 12%;
+  }
+  .project-title {
+    margin-top: 5%;
+    margin-left: 31%;
+  }
+
+  .project-desc {
+    font-size: 1rem;
+    width: 23rem;
+  }
+
+  .title {
+    margin: 0 auto;
+    margin-top: 60%;
+    /*position: absolute;
+    left: 2%;
+    top: 30%;*/
+    font-size: 32px;
+  }
+
+  .slider-title {
+    font-size: 2.3rem;
+  }
+
+  @keyframes slice {
+    0%,
+    27% {
+      transform: translateY(1%);
+    }
+
+    33%,
+    60% {
+      transform: translateY(-32%);
+    }
+
+    66%,
+    93% {
+      transform: translateY(-68%);
+    }
+  }
+
+  .contact-box {
+    margin: 0 auto;
+    margin-top: 70%;
+    width: 24rem;
+    height: 60rem;
+  }
+
+  .cnt-desc {
+    position: absolute;
+    top: 6%;
+    font-size: 1.5rem;
+  }
+
+  .cnt-about {
+    position: absolute;
+    top: 12%;
+    left: 3%;
+    font-size: 0.9rem;
+    width: 23rem;
+  }
+
+  .email-name {
+    position: absolute;
+    font-size: 1rem;
+    top: 33%;
+  }
+
+  .email-name:hover {
+    transform: scale(1.05);
+  }
+
+  .github-icon {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+  }
+
+  .linkedin-icon {
+    position: absolute;
+    top: 40%;
+    left: 65%;
+  }
+
+  .contact-container {
+    position: absolute;
+    top: 50%;
+    left: 2.3%;
+    width: 23rem;
+  }
+
+  .email {
+    width: 20rem;
+  }
+
+  .name {
+    width: 20rem;
+  }
+
+  .message {
+    width: 20rem;
+  }
+
+  .contact-title {
+    margin-bottom: 20%;
+    margin: 0 auto;
   }
 
   .copyright {
@@ -1273,7 +1631,7 @@ body::-webkit-scrollbar {
 }
 
 /* Styles for screens less than 768px wide */
-@media screen and (max-width: 767px) and (min-width: 361px) {
+@media screen and (max-width: 767px) and (min-width: 413px) {
   body {
     /*background-image: url(../Images/mobile-back.svg);*/
     background-position: 0 -5650px;
@@ -1290,13 +1648,14 @@ body::-webkit-scrollbar {
   .design4 {
     top: 220%;
     left: -285%;
+    display: none;
   }
 
   .design5 {
-    top: 330%;
+    top: 300%;
   }
 
-  .landing-container {
+  /*.landing-container {
     margin-top: 40%;
     margin-left: -56%;
     font-size: 1.5rem;
@@ -1308,8 +1667,37 @@ body::-webkit-scrollbar {
 
   .auto-type {
     position: absolute;
-    top: 35%;
+    top: 16rem;
+    left: 1.2rem;
+  }*/
+  .landing-container {
+    /*margin-top: 9rem;
+    margin-left: -50%;*/
+    font-size: 1.5rem;
+    /*display: grid;
+    justify-content: start;
+    align-items: start;*/
+    position: absolute;
+    top: 17%;
     left: 5%;
+    display: inline-block;
+    justify-content: start;
+  }
+
+  .typed-cursor {
+    display: none;
+  }
+
+  .auto-type {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    /*position: absolute;
+    top: 15rem;
+    left: 5%;
+    display: grid;
+    justify-content: start;
+    align-items: start;*/
   }
 
   .loader {
@@ -1399,7 +1787,7 @@ body::-webkit-scrollbar {
   .about-box {
     width: 23.5rem;
     height: 50rem;
-    margin-top: 100%;
+    margin-top: 210%;
   }
 
   .about-tab {
@@ -1472,15 +1860,19 @@ body::-webkit-scrollbar {
   }
 
   .project-box {
-    width: 400px;
+    width: 350px;
     height: 600px;
     margin: 0 auto;
   }
 
   .project-img {
-    width: 350px;
-    height: 350px;
-    margin-left: 6%;
+    width: 300px;
+    height: 300px;
+    margin-left: 7%;
+  }
+
+  .project-desc {
+    width: 22rem;
   }
 
   .project-title {
@@ -1580,25 +1972,20 @@ body::-webkit-scrollbar {
     left: 23%;
   }
 
-  .footer-bar {
-    margin-top: 60%;
-    margin-bottom: 0;
-  }
-
   .copyright {
     font-size: 1rem;
     margin-left: 10%;
   }
 }
 /* Styles for screens between 768px and 992px wide */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
   body {
     background-position: -150px -700px;
     background-size: 1000px 2000px;
   }
 
   .landing-container {
-    font-size: 1.75rem;
+    font-size: 1.7rem;
   }
 
   .design4 {
@@ -1729,7 +2116,7 @@ body::-webkit-scrollbar {
   }
 }
 
-@media screen and (max-width: 767px) and (orientation: landscape) {
+@media screen and (max-width: 769px) and (orientation: landscape) {
   body {
     background-position: -10px -750px;
     background-size: 1000px;
@@ -1782,17 +2169,9 @@ body::-webkit-scrollbar {
   .project-header {
     margin-top: 15%;
   }
-
-  .copyright {
-    top: 505%;
-  }
-
-  .footer-bar {
-    top: 500%;
-  }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media screen and (min-width: 769px) and (max-width: 1023px) and (orientation: landscape) {
   .navbar-container {
     top: 10%;
   }
@@ -1803,10 +2182,6 @@ body::-webkit-scrollbar {
 
   .home-button {
     left: 89%;
-  }
-
-  .footer-bar {
-    margin-top: 1200%;
   }
 }
 
