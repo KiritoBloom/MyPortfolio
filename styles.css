@@ -771,7 +771,7 @@ body::-webkit-scrollbar {
 }
 
 .name {
-  background: rgb(234, 234, 234);
+  background: rgb(214, 214, 214);
   position: absolute;
   top: 20%;
   left: 5%;
@@ -785,7 +785,7 @@ body::-webkit-scrollbar {
 }
 
 .email {
-  background: rgb(234, 234, 234);
+  background: rgb(214, 214, 214);
   position: absolute;
   top: 33%;
   left: 5%;
@@ -799,7 +799,7 @@ body::-webkit-scrollbar {
 }
 
 .message {
-  background: rgb(234, 234, 234);
+  background: rgb(214, 214, 214);
   position: absolute;
   top: 50%;
   left: 5%;
@@ -1936,6 +1936,7 @@ body::-webkit-scrollbar {
 
   .landing-container {
     font-size: 1.7rem;
+    margin-top: 30%;
   }
 
   .design4 {
@@ -1974,10 +1975,6 @@ body::-webkit-scrollbar {
     left: 65%;
   }
 
-  .back2-continue {
-    display: none;
-  }
-
   .home-button {
     left: 92%;
   }
@@ -2000,6 +1997,10 @@ body::-webkit-scrollbar {
 
   .navbar a {
     font-size: 1.4rem;
+  }
+
+  .about-box {
+    margin-top: 79%;
   }
 
   .project-header {
