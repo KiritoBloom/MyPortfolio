@@ -1284,7 +1284,7 @@ body::-webkit-scrollbar {
   }
 }
 
-@media screen and (min-width: 377px) and (max-width: 412px) {
+@media screen and (min-width: 376px) and (max-width: 412px) {
   .landing-container {
     /*margin-top: 9rem;
     margin-left: -50%;*/
