@@ -167,12 +167,6 @@ body::-webkit-scrollbar {
   }
 }
 
-.back2-continue {
-  position: absolute;
-  top: 124%;
-  width: 461px;
-}
-
 .navbar-container {
   position: absolute;
   top: 7%;
@@ -219,7 +213,7 @@ body::-webkit-scrollbar {
 
 .home-button {
   border: none;
-  padding: 20px 15px 20px 15px;
+  padding: 15px 15px 10px 15px;
   border-radius: 50%;
   position: fixed;
   top: 90%;
@@ -238,14 +232,16 @@ body::-webkit-scrollbar {
 }
 
 .contact-me {
-  position: absolute;
+  /*position: absolute;
   top: 0%;
   left: 50%;
   margin-left: 7%;
-  margin-top: 20%;
+  margin-top: 20%;*/
   font-family: "Poppins", "Gill Sans";
-  top: 52%;
-  left: 21%;
+  /*top: 52%;
+  left: 21%;*/
+  margin: 0 auto;
+  margin-top: 10%;
   font-size: 0.4rem;
   font-weight: bold;
   color: black;
@@ -1022,11 +1018,6 @@ body::-webkit-scrollbar {
     left: 83%;
   }
 
-  .contact-me {
-    font-size: 0.4rem;
-    left: 22%;
-  }
-
   .navbar-container {
     position: absolute;
     top: 6%;
@@ -1356,10 +1347,6 @@ body::-webkit-scrollbar {
     left: 83%;
   }
 
-  .contact-me {
-    font-size: 0.4rem;
-    left: 22%;
-  }
   .navbar-container {
     position: absolute;
     top: 6%;
@@ -1710,11 +1697,6 @@ body::-webkit-scrollbar {
 
   .home-button {
     left: 83%;
-  }
-
-  .contact-me {
-    font-size: 0.4rem;
-    left: 22%;
   }
 
   .navbar-container {
