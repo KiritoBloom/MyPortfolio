@@ -241,11 +241,12 @@ body::-webkit-scrollbar {
   position: absolute;
   top: 0%;
   left: 50%;
-  margin: 9px 10px 10px 0px;
+  margin-left: 7%;
+  margin-top: 20%;
   font-family: "Poppins", "Gill Sans";
   top: 52%;
   left: 21%;
-  font-size: 0.5rem;
+  font-size: 0.4rem;
   font-weight: bold;
   color: black;
 }
@@ -1017,25 +1018,13 @@ body::-webkit-scrollbar {
     margin-top: 135%;
   }
 
-  .back2-continue {
-    display: none;
-  }
-
-  .mobile-back2 {
-    display: block;
-    position: absolute;
-    top: 195%;
-    left: -4.6%;
-    width: 500px;
-  }
-
   .home-button {
     left: 83%;
   }
 
   .contact-me {
-    font-size: 0.5rem;
-    left: 25%;
+    font-size: 0.4rem;
+    left: 22%;
   }
 
   .navbar-container {
@@ -1363,27 +1352,14 @@ body::-webkit-scrollbar {
     margin-top: 135%;
   }
 
-  .back2-continue {
-    display: none;
-  }
-
-  .mobile-back2 {
-    display: block;
-    position: absolute;
-    top: 195%;
-    left: -4.6%;
-    width: 500px;
-  }
-
   .home-button {
     left: 83%;
   }
 
   .contact-me {
-    font-size: 0.5rem;
-    left: 25%;
+    font-size: 0.4rem;
+    left: 22%;
   }
-
   .navbar-container {
     position: absolute;
     top: 6%;
@@ -1732,21 +1708,13 @@ body::-webkit-scrollbar {
     margin-top: 135%;
   }
 
-  .mobile-back2 {
-    display: block;
-    position: absolute;
-    top: 195%;
-    left: -4.6%;
-    width: 500px;
-  }
-
   .home-button {
     left: 83%;
   }
 
   .contact-me {
-    font-size: 0.5rem;
-    left: 25%;
+    font-size: 0.4rem;
+    left: 22%;
   }
 
   .navbar-container {
