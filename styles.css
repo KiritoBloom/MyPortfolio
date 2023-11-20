@@ -173,18 +173,10 @@ body::-webkit-scrollbar {
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 10px;
-  /*margin: auto;
-  position: fixed;
-  top: 105%;
-  left: 0;
-  right: 0;
-  margin: 0 auto;*/
   z-index: 10;
 }
 
 .navbar {
-  /*margin-left: -57%;
-  margin-top: -49.5%;*/
   border: 2px solid white;
   border-radius: 10px 10px 10px 10px;
   width: 54rem;
@@ -226,20 +218,8 @@ body::-webkit-scrollbar {
   color: black;
 }
 
-.home-button2 {
-  width: 20px;
-  height: 20px;
-}
-
 .contact-me {
-  /*position: absolute;
-  top: 0%;
-  left: 50%;
-  margin-left: 7%;
-  margin-top: 20%;*/
   font-family: "Poppins", "Gill Sans";
-  /*top: 52%;
-  left: 21%;*/
   margin: 0 auto;
   margin-top: 10%;
   font-size: 0.4rem;
@@ -424,151 +404,28 @@ body::-webkit-scrollbar {
 }
 
 .skills-container {
+  position: relative;
+  bottom: 20px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  width: 100%;
   font-family: "Poppins", "Gill Sans";
   font-size: 0.7rem;
-  margin-left: 1%;
-  margin-top: -3%;
 }
-.html-container {
+
+.skills_tabs {
+  font-family: "Poppins", "Gill Sans";
   border: 2px solid black;
-  width: 5rem;
-  height: 2rem;
-  border-radius: 20px 20px 20px 20px;
-  margin-top: -2%;
-}
-
-.html-in {
-  position: relative;
-  top: 5%;
-  left: 15%;
-  transform: translateY(-50%);
-}
-
-.css-container {
-  border: 2px solid black;
-  width: 4rem;
-  height: 2rem;
-  border-radius: 20px 20px 20px 20px;
-  margin-top: -4.9%;
-  margin-left: 12%;
-}
-
-.css-in {
-  position: relative;
-  top: 5%;
-  left: 15%;
-  transform: translateY(-50%);
-}
-
-.js-container {
-  border: 2px solid black;
-  width: 9rem;
-  height: 2rem;
-  border-radius: 20px 20px 20px 20px;
-  margin-top: -4.9%;
-  margin-left: 22%;
-}
-
-.js-in {
-  position: relative;
-  top: 5%;
-  left: 9%;
-  transform: translateY(-50%);
-}
-
-.react-container {
-  border: 2px solid black;
-  width: 5rem;
-  height: 2rem;
-  border-radius: 20px 20px 20px 20px;
-  margin-top: -4.9%;
-  margin-left: 43.3%;
-}
-
-.react-in {
-  position: relative;
-  top: 5%;
-  left: 10%;
-  transform: translateY(-50%);
-}
-
-.bootstrap-container {
-  border: 2px solid black;
-  width: 8rem;
-  height: 2rem;
-  border-radius: 20px 20px 20px 20px;
-  margin-top: -4.9%;
-  margin-left: 56%;
-}
-
-.bootstrap-in {
-  position: relative;
-  top: 5%;
-  left: 8%;
-  transform: translateY(-50%);
-}
-
-.firebase-container {
-  border: 2px solid black;
-  width: 7rem;
-  height: 2rem;
-  border-radius: 20px 20px 20px 20px;
-  margin-top: -4.9%;
-  margin-left: 75%;
-}
-
-.firebase-in {
-  position: relative;
-  top: 5%;
-  left: 8%;
-  transform: translateY(-50%);
-}
-
-.git-container {
-  border: 2px solid black;
-  width: 3rem;
-  height: 2rem;
-  border-radius: 20px 20px 20px 20px;
-  margin-top: -4.9%;
-  margin-left: 92%;
-}
-
-.git-in {
-  position: relative;
-  top: 9%;
-  left: 15%;
-  transform: translateY(-50%);
-}
-
-.redux-container {
-  border: 2px solid black;
-  width: 5rem;
-  height: 2rem;
-  border-radius: 20px 20px 20px 20px;
-  margin-top: 1%;
-}
-
-.redux-in {
-  position: relative;
-  top: 9%;
-  left: 8%;
-  transform: translateY(-50%);
-}
-
-.c-container {
-  border: 2px solid black;
-  width: 3rem;
-  height: 2rem;
-  border-radius: 20px 20px 20px 20px;
-  margin-top: -5%;
-  margin-left: 12%;
-}
-
-.c-in {
-  position: relative;
-  top: 9%;
-  left: 12%;
-  transform: translateY(-50%);
+  border-radius: 20px;
+  height: 23px;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
 }
 
 .project-header {
