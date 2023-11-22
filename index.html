@@ -23,6 +23,7 @@
     />
     <script src="link.js" defer></script>
     <script src="app.js" defer></script>
+    <script src="event.js" defer></script>
     <script
       type="module"
       src="https://cdn.jsdelivr.net/npm/ldrs/dist/auto/trefoil.js"
@@ -35,7 +36,7 @@
       <img src="../Images/design2.svg" class="design2" />
       <img src="../Images/design3.svg" class="design3" />
       <img src="../Images/design4.svg" class="design4" />
-      <img src="../Images/design5.svg" class="design5" />
+      <!--<img src="../Images/design5.svg" class="design5" />-->
     </div>
 
     <!--This section contains a preloader and a nav allowing easy access to any part of the portfolio-->
@@ -86,7 +87,7 @@
       </div>
     </div>
     <!--Home button that scrolls up to the top of the page with an svg of the home icon-->
-    <a href="#home">
+    <a href="#home" id="homeButton" class="shown">
       <button class="home-button">
         <?xml version="1.0" encoding="utf-8"?><!--Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools-->
         <i class="fa-solid fa-angle-up fa-2xl"></i>
@@ -238,31 +239,7 @@
         loader.style.display = "none";
       });
     </script>
-    <!--Footer containing copyright-->
-    <footer>
-      <div class="footer-bar">
-        <svg
-          class="footer-image"
-          width="70.8223393001694"
-          height="60.57000732421875"
-          viewBox="0 0 2.5000000000000004 2.232484040838155"
-          class="css-1j8o68f"
-        >
-          <defs id="SvgjsDefs1579"></defs>
-          <g
-            id="SvgjsG1580"
-            featurekey="nameFeature-0"
-            transform="matrix(0.07961783052588638,0,0,0.07961783052588638,-7.592948010052335e-8,-0.9522291801973002)"
-            fill="white"
-          >
-            <path
-              d="M5.64 11.96 l11.6 21.8 l4.84 -8.96 l2.32 15.2 l1.44 0 l-3 -19.68 l-5.6 10.36 l-9.96 -18.72 l-1.64 0 z M18.4 22.72 l-1.88 3.48 l0.84 1.52 l2.64 -5 l3.52 -6.56 l0.12 -0.28 l1.32 -2.44 l0.96 0 l0.12 0.96 l3 19.52 l0.68 4.6 l-1.32 0 l-3.04 -19.8 l-0.36 -2.4 l-1.12 2.12 l3.2 20.96 l-0.04 0 l0.12 0.6 l4.24 0 l-4.24 -28.04 l-3.08 0 z M15.96 34.12 l-11.48 -21.64 l-0.24 -0.4 l-4.24 27.92 l7 0 l1.28 -8.28 l-0.84 -1.56 l-0.32 -0.6 l-1.36 8.96 l-4.08 0 l3.36 -21.92 l12.24 23.04 l4.36 -8.28 l-0.32 -2.12 l-0.04 -0.28 l-4 7.6 z M6.48 25.240000000000002 l7.84 14.76 l1.64 0 l-10.24 -19.24 l-2.6 16.72 l1.44 0 z"
-            ></path>
-          </g>
-        </svg>
-        <h1 class="copyright">Copyright © 2023. All rights reserved</h1>
-      </div>
-    </footer>
+
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
       var typed = new Typed(".auto-type", {
@@ -272,6 +249,34 @@
         loop: true,
       });
     </script>
+    <!--Footer containing copyright-->
+    <footer id="footer">
+      <div class="design6">
+        <img src="../Images/design6.svg" />
+      </div>
+      <div class="footer-bar">
+        <h1 class="copyright">Copyright © 2023. All rights reserved</h1>
+        <div class="links">
+          <p class="github-footer">
+            <a
+              href="https://github.com/KiritoBloom"
+              target="_blank"
+              title="Github Page"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </p>
+
+          <p class="linkedin-footer">
+            <a
+              href="https://www.linkedin.com/in/mohamed-ahmed-aa2b09288/"
+              target="_blank"
+              title="Linkedin Page"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
 <!--THIS CODE HAS BEEN DEVELOPED BY Mohamed, ALL CODE RIGHTS BELONG TO Mohamed-->
