@@ -33,7 +33,7 @@ body::-webkit-scrollbar {
   z-index: -1;
   position: absolute;
   right: 0%;
-  top: -40%;
+  top: -48%;
 }
 
 .design2 {
@@ -98,13 +98,14 @@ body::-webkit-scrollbar {
 }
 
 .hide {
-  display: none;
   opacity: 0;
   transition: 0.3s ease;
+  pointer-events: none;
 }
 
 .shown {
   display: show;
+  transition: 0.3s ease;
 }
 
 .mobile-back2 {
@@ -276,7 +277,7 @@ body::-webkit-scrollbar {
   margin-top: 30%;
   border: 2px solid transparent;
   width: 45rem;
-  height: 31rem;
+  height: 32rem;
   border-radius: 0 0 0.5rem 0.5rem;
   background: rgb(246, 245, 245);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -448,9 +449,9 @@ body::-webkit-scrollbar {
 }
 
 .cnt-touch {
-  text-decoration: underline;
   font-size: 40px;
   color: white;
+  font-weight: 10000;
 }
 
 .cnt-desc {
@@ -941,9 +942,9 @@ button {
 
   .about-box {
     width: 21rem;
-    height: 50rem;
+    height: 52rem;
     margin-top: 210%;
-    min-height: 50rem;
+    min-height: 52rem;
   }
 
   .about-desc {
@@ -1680,16 +1681,19 @@ button {
   }
 
   .navbar-container {
-    top: 13%;
+    top: 6%;
   }
 
   .navbar {
-    border: 2px solid black;
-    max-width: 400px;
+    max-width: 700px;
+  }
+
+  .nav-image {
+    margin-right: 39em;
   }
 
   .home-button {
-    top: 77%;
+    top: 90%;
     left: 88%;
   }
 
