@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+/*document.addEventListener("DOMContentLoaded", function () {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       const homeButton = document.getElementById("homeButton");
@@ -18,3 +18,4 @@ document.addEventListener("DOMContentLoaded", function () {
   const footer = document.getElementById("footer");
   observer.observe(footer);
 });
+*/
