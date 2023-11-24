@@ -235,7 +235,7 @@ body::-webkit-scrollbar {
   border: none;
   padding: 15px 15px 10px 15px;
   border-radius: 50%;
-  position: fixed;
+  position: sticky;
   top: 90%;
   left: 95%;
   cursor: pointer;
@@ -1194,7 +1194,7 @@ button {
     width: 24rem;
     height: 44rem;
     margin-top: 210%;
-    min-height: 44rem;
+    min-height: 45rem;
   }
 
   .about-desc {
