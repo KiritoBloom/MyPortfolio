@@ -21,11 +21,21 @@
       href="https://fonts.googleapis.com/css?family=Poppins"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <script src="link.js" defer></script>
     <script src="app.js" defer></script>
     <script src="event.js" defer></script>
     <script src="scroll.js" defer></script>
     <script src="smooth.js"></script>
+    <script src="image-scroller.js" defer></script>
+    <script src="image-slider.js" defer></script>
+
     <script
       type="module"
       src="https://cdn.jsdelivr.net/npm/ldrs/dist/auto/trefoil.js"
@@ -133,10 +143,16 @@
             <div class="skills_tabs"><h1>CSS</h1></div>
             <div class="skills_tabs"><h1>JavaScript</h1></div>
             <div class="skills_tabs"><h1>React</h1></div>
-            <div class="skills_tabs"><h1>Git</h1></div>
+            <div class="skills_tabs"><h1>Redux</h1></div>
+            <div class="skills_tabs"><h1>TailWind</h1></div>
+            <div class="skills_tabs"><h1>TypeScript</h1></div>
+            <div class="skills_tabs"><h1>Node.js</h1></div>
+            <div class="skills_tabs"><h1>Next.js</h1></div>
+            <div class="skills_tabs"><h1>MongoDB</h1></div>
             <div class="skills_tabs"><h1>Firebase</h1></div>
             <div class="skills_tabs"><h1>Bootstrap</h1></div>
-            <div class="skills_tabs"><h1>Redux</h1></div>
+            <div class="skills_tabs"><h1>Python</h1></div>
+            <div class="skills_tabs"><h1>Git</h1></div>
             <div class="skills_tabs"><h1>C#</h1></div>
           </div>
         </div>
@@ -144,18 +160,180 @@
       <!--Project container containing projects that have been created also containing links to github code and links to live demos of the projects-->
       <h1 class="project-header" id="projects-container">Projects</h1>
       <div class="project-container hidden">
-        <div class="project-box">
-          <img
+        <div class="project-box one">
+          <!--   <img
             src="https://placeholder.pics/svg/400x400/DEDEDE/FF2DD8/placeholder"
             alt="placeholder"
             class="project-img"
-          />
-          <h1 class="project-title">Project 1</h1>
+          />-->
+          <div class="slider-container" id="slider1">
+            <div class="image-container">
+              <img src="../Images/Project1-img1.PNG" alt="img1" />
+              <img src="../Images/Project1-img2.PNG" alt="img2" />
+              <img src="../Images/Project1-img3.PNG" alt="img3" />
+              <img src="../Images/Project1-img4.PNG" alt="img3" />
+            </div>
+            <i class="fas fa-angle-left btn prev"></i>
+            <i class="fas fa-angle-right btn next"></i>
+          </div>
+          <h1 class="project-title buzz">BuzzPulse</h1>
+          <div class="project-tect-container">
+            <div class="project-tech">Next.js</div>
+            <div class="project-tech">MongoDB</div>
+            <div class="project-tech">TypeScript</div>
+            <div class="project-tech">TailWind</div>
+          </div>
           <p class="project-desc">
-            This project named Project 1 is a netflix website copy that utilizes
-            different technologies to make the site functional and responsive
-            such as frontend frameword react.
+            BuzzPulse is an advanced real-time messaging platform leveraging
+            Next.js 13, Prisma, MongoDB, Tailwind, and Typescript. Renowned for
+            its elegant UI and user-friendly features, BuzzPulse ensures a
+            seamless communication experience.
           </p>
+          <a href="https://buzzpulse.vercel.app/" target="_blank"
+            ><button class="button-live">
+              Live Demo
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fas"
+                data-icon="arrow-up-right-from-square"
+                class="svg-inline--fa fa-arrow-up-right-from-square w-4 h-4"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+                width="15px"
+                height="15px"
+              >
+                <path
+                  fill="currentColor"
+                  d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"
+                ></path>
+              </svg></button
+          ></a>
+          <a href="https://github.com/KiritoBloom/buzz" target="_blank"
+            ><button class="button-live">
+              Code <i class="fa-brands fa-github"></i></button
+          ></a>
+        </div>
+      </div>
+      <div class="project-container hidden third">
+        <div class="project-box two">
+          <!--   <img
+            src="https://placeholder.pics/svg/400x400/DEDEDE/FF2DD8/placeholder"
+            alt="placeholder"
+            class="project-img"
+          />-->
+          <div class="slider-container" id="slider2">
+            <div class="image-container">
+              <img src="../Images/Project2-img1.PNG" alt="img1" />
+              <img src="../Images/Project2-img2.PNG" alt="img2" />
+              <img src="../Images/Project2-img3.PNG" alt="img3" />
+              <img src="../Images/Project2-img4.PNG" alt="img4" />
+            </div>
+            <i class="fa-solid fa-angle-left btn prev"></i>
+            <i class="fa-solid fa-angle-right btn next"></i>
+          </div>
+          <h1 class="project-title admin second">Ecommerce Admin Page</h1>
+          <div class="project-tect-container">
+            <div class="project-tech">Next.js</div>
+            <div class="project-tech">React</div>
+            <div class="project-tech">TypeScript</div>
+            <div class="project-tech">TailWind</div>
+          </div>
+          <p class="project-desc desc-style">
+            In crafting my E-commerce admin interface, I've strategically
+            integrated MongoDB, Next.js, Clerk authentication, and Shadcn UI.
+            This synergy ensures a secure, efficient, and visually appealing
+            platform, elevating the E-commerce administration experience.
+          </p>
+          <a href="https://ecommerce-adminpage.vercel.app" target="_blank"
+            ><button class="button-live">
+              Live Demo
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fas"
+                data-icon="arrow-up-right-from-square"
+                class="svg-inline--fa fa-arrow-up-right-from-square w-4 h-4"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+                width="15px"
+                height="15px"
+              >
+                <path
+                  fill="currentColor"
+                  d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"
+                ></path>
+              </svg></button
+          ></a>
+          <a
+            href="https://github.com/KiritoBloom/EcommerceAdmin"
+            target="_blank"
+            ><button class="button-live">
+              Code <i class="fa-brands fa-github"></i></button
+          ></a>
+        </div>
+      </div>
+      <div class="project-container hidden third">
+        <div class="project-box three">
+          <!--   <img
+            src="https://placeholder.pics/svg/400x400/DEDEDE/FF2DD8/placeholder"
+            alt="placeholder"
+            class="project-img"
+          />-->
+          <div class="slider-container" id="slider3">
+            <div class="image-container">
+              <img src="../Images/Project3-img1.PNG" alt="img1" />
+              <img src="../Images/Project3-img2.PNG" alt="img2" />
+              <img src="../Images/Project3-img3.PNG" alt="img3" />
+              <img src="../Images/Project3-img4.PNG" alt="img4" />
+              <img src="../Images/Project3-img5.PNG" alt="img5" />
+              <img src="../Images/Project3-img6.PNG" alt="img6" />
+            </div>
+            <i class="fa-solid fa-angle-left btn prev"></i>
+            <i class="fa-solid fa-angle-right btn next"></i>
+          </div>
+          <h1 class="project-title store">Ecommerce Store Page</h1>
+          <div class="project-tect-container">
+            <div class="project-tech">Next.js</div>
+            <div class="project-tech">Stripe</div>
+            <div class="project-tech">TypeScript</div>
+            <div class="project-tech">TailWind</div>
+          </div>
+          <p class="project-desc desc-style">
+            My E-commerce store page harnesses revolutionary technologies,
+            including seamless API requests, Shadcn UI, Next.js 13, and Stripe
+            integration. This amalgamation ensures a cutting-edge platform,
+            combining user-friendly design with advanced functionalities.
+          </p>
+          <a href="https://ecommerce-storepage.vercel.app/" target="_blank"
+            ><button class="button-live">
+              Live Demo
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fas"
+                data-icon="arrow-up-right-from-square"
+                class="svg-inline--fa fa-arrow-up-right-from-square w-4 h-4"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+                width="15px"
+                height="15px"
+              >
+                <path
+                  fill="currentColor"
+                  d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"
+                ></path>
+              </svg></button
+          ></a>
+          <a
+            href="https://github.com/KiritoBloom/EcommerceStore"
+            target="_blank"
+            ><button class="button-live">
+              Code <i class="fa-brands fa-github"></i></button
+          ></a>
         </div>
       </div>
       <!--Contact form using form submit to get emails directed to me-->
@@ -288,7 +466,7 @@
         loader.style.display = "none";
       });
     </script>
-
+    <!--Auto type script-->
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
       var typed = new Typed(".auto-type", {
