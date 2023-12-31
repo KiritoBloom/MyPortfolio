@@ -539,6 +539,10 @@ body::-webkit-scrollbar {
   transform: scale(1.05);
 }
 
+.three {
+  height: 420px;
+}
+
 .desc-style {
   font-size: 0.95em;
 }
@@ -1130,16 +1134,19 @@ button {
 
   .two {
     height: 700px;
+    min-height: 700px;
   }
 
   .three {
-    height: 700px;
+    height: 730px;
+    min-height: 730px;
   }
 
   .project-title.store {
     width: 100%;
-    position: relative;
-    left: -25%;
+    /*position: relative;
+    left: -25%;*/
+    margin-left: 6%;
     font-size: 1.6em;
   }
 
@@ -1157,10 +1164,11 @@ button {
     left: -3%;
   }
 
-  .second {
-    width: 100%;
-    position: relative;
-    left: -25%;
+  .project-title.second {
+    width: 90%;
+    /*position: relative;
+    left: -25%;*/
+    margin-left: 15%;
     font-size: 1.5em;
   }
 
@@ -1660,9 +1668,9 @@ button {
 
   .about-box {
     width: 23.5rem;
-    height: 53rem;
+    height: 55rem;
     margin-top: 210%;
-    min-height: 53rem;
+    min-height: 55rem;
   }
 
   .about-tab {
@@ -1688,7 +1696,7 @@ button {
   }
 
   .two {
-    height: 700px;
+    height: 680px;
     width: 23em;
   }
 
@@ -1898,6 +1906,10 @@ button {
     left: -19%;
   }
 
+  .two {
+    height: 370px;
+  }
+
   .desc-style {
     margin-bottom: -0.5%;
   }
@@ -1984,21 +1996,4 @@ button {
   .project-header {
     margin-top: 15%;
   }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1023px) and (orientation: landscape) {
-  .navbar-container {
-    top: 10%;
-  }
-
-  .back2-continue {
-    top: 84%;
-  }
-
-  .home-button {
-    left: 89%;
-  }
-}
-
-@media screen and (min-width: 1280px) {
 }
