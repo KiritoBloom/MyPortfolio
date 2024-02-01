@@ -76,3 +76,13 @@ createImageSlider(
   500,
   30000
 );
+
+createImageSlider(
+  "#slider4",
+  "#slider4 .prev",
+  "#slider4 .next",
+  "#slider4 .image-container",
+  "img",
+  500,
+  30000
+);

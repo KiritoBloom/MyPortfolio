@@ -543,6 +543,11 @@ body::-webkit-scrollbar {
   height: 420px;
 }
 
+.four {
+  margin-top: 50px;
+  height: 420px;
+}
+
 .desc-style {
   font-size: 0.95em;
 }
@@ -1142,6 +1147,11 @@ button {
     min-height: 730px;
   }
 
+  .four {
+    height: 750px;
+    min-height: 750px;
+  }
+
   .project-title.store {
     width: 100%;
     /*position: relative;
@@ -1277,6 +1287,11 @@ button {
     left: 5%;
     display: inline-block;
     justify-content: start;
+  }
+
+  .four {
+    height: 710px;
+    min-height: 710px;
   }
 
   .typed-cursor {
@@ -1545,6 +1560,11 @@ button {
   body {
     /*background-image: url(../Images/mobile-back.svg);*/
     background-position: 0 -5650px;
+  }
+
+  .four {
+    height: 710px;
+    min-height: 710px;
   }
 
   .design1 {
